@@ -39,7 +39,7 @@ const students = [
 console.log(students)
 
 
-/*function findAverage(array) {
+function findAverage(array) {
 
     let x = array.length
 if(array.length>0){
@@ -48,9 +48,9 @@ if(array.length>0){
 
 }
 
-console.log(findAverage([1,2,3]))*/
+console.log(findAverage([1,2,3]))
 
-JsCodewars
+
 //////////////////////////////////////////////////////
 /* ... вывести в кансоль один весь елемент-обьект, с самым старшим студентом */
 
