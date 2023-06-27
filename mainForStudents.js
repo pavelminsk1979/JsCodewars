@@ -1,3 +1,29 @@
+
+
+/*Дети пьют тодди.
+    Подростки пьют колу.
+    Молодые люди пьют пиво.
+    Взрослые пьют виски.
+    Сделайте функцию, которая получает возраст и возвращает то, что они пьют.
+
+    Правила:
+
+Дети до 14 лет.
+    Подростки до 18 лет.
+    Молодые до 21 года.
+    У взрослых 21 и более.*/
+
+
+function peopleWithAgeDrink(old) {
+    if(old<14){return "drink toddy"}
+    if(old>=14&&old<18){return 'drink coke'}
+    if(old>=18&&old<21){return 'drink beer'}
+    if(old>=21){return 'drink whisky'}
+
+};
+
+console.log(peopleWithAgeDrink(14))
+
 const students = [
     {
         name: "Bob",
@@ -39,7 +65,7 @@ const students = [
 console.log(students)
 
 
-function findAverage(array) {
+/*function findAverage(array) {
 
     let x = array.length
 if(array.length>0){
@@ -48,7 +74,7 @@ if(array.length>0){
 
 }
 
-console.log(findAverage([1,2,3]))
+console.log(findAverage([1,2,3]))*/
 
 
 //////////////////////////////////////////////////////
