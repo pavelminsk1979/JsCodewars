@@ -1,4 +1,12 @@
+/*Учитывая строку цифр, вы должны заменить любую цифру ниже 5 на «0», а любую цифру 5 и выше на «1». Верните полученную строку.
 
+    Примечание: ввод никогда не будет пустой строкой*/
+
+function fakeBin(x){
+return x.split('').map(e=>+e).map(e=>e<5?0:1).join('')
+}
+
+console.log(fakeBin('4538'))
 
 /*Дети пьют тодди.
     Подростки пьют колу.
@@ -13,16 +21,15 @@
     Молодые до 21 года.
     У взрослых 21 и более.*/
 
-
+/*
 function peopleWithAgeDrink(old) {
     if(old<14){return "drink toddy"}
     if(old>=14&&old<18){return 'drink coke'}
     if(old>=18&&old<21){return 'drink beer'}
     if(old>=21){return 'drink whisky'}
 
-};
+};*/
 
-console.log(peopleWithAgeDrink(14))
 
 const students = [
     {
