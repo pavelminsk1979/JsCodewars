@@ -6,6 +6,34 @@
 
 
 
+/*Напишите функцию, которая разбивает строку и преобразует ее в массив слов.*/
+
+
+
+
+/*function stringToArray(string){
+
+  return string.split(' ')
+
+}
+
+console.log(stringToArray("I love arrays they are my favorite"))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*Числа, заканчивающиеся нулями, скучны.
