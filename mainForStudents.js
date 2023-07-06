@@ -2,6 +2,99 @@
 
 
 
+/*Получив букву, верните ее положение в алфавите.
+
+Ввод :: "а"
+
+Вывод :: "Позиция алфавита: 1"*/
+
+
+
+
+function position(letter){
+if(letter==='a'){return 'Position of alphabet: 1' }
+if(letter==='b'){return 'Position of alphabet: 2'}
+if(letter==='c'){return 'Position of alphabet: 3'}
+if(letter==='d'){return 'Position of alphabet: 4'}
+if(letter==='e'){return 'Position of alphabet: 5'}
+if(letter==='f'){return 'Position of alphabet: 6'}
+if(letter==='g'){return 'Position of alphabet: 7'}
+if(letter==='h'){return 'Position of alphabet: 8'}
+if(letter==='i'){return 'Position of alphabet: 9'}
+if(letter==='j'){return 'Position of alphabet: 10'}
+if(letter==='k'){return 'Position of alphabet: 11'}
+if(letter==='l'){return 'Position of alphabet: 12'}
+if(letter==='m'){return 'Position of alphabet: 13'}
+if(letter==='n'){return 'Position of alphabet: 14'}
+if(letter==='o'){return 'Position of alphabet: 15'}
+if(letter==='p'){return 'Position of alphabet: 16'}
+if(letter==='q'){return 'Position of alphabet: 17'}
+if(letter==='r'){return 'Position of alphabet: 18'}
+if(letter==='s'){return 'Position of alphabet: 19'}
+if(letter==='t'){return 'Position of alphabet: 20'}
+if(letter==='u'){return 'Position of alphabet: 21'}
+if(letter==='v'){return 'Position of alphabet: 22'}
+if(letter==='w'){return 'Position of alphabet: 23'}
+if(letter==='x'){return 'Position of alphabet: 24'}
+if(letter==='y'){return 'Position of alphabet: 25'}
+if(letter==='z'){return 'Position of alphabet: 26'}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Есть предложение «3 по цене 2» (или «2+1», если хотите) на манго. Для данного количества и цены (за манго) рассчитайте общую стоимость манго.*/
+
+
+
+
+
+
+/*
+    function mango(quantity, price){
+
+let a = Math.floor(quantity/3)
+        let x = quantity - a*3
+        let res = a*2 +x
+return  res*price
+}
+
+
+console.log(mango(3, 3))
+console.log(mango(10, 5))*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
