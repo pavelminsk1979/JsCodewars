@@ -6,12 +6,54 @@
 
 
 
+
+/*
+Вам даны длина и ширина четырехугольника. Многоугольник может быть прямоугольным или квадратным.
+    Если это квадрат, вернуть его площадь. Если это прямоугольник, верните его периметр.
+
+Пример (Ввод1, Ввод2 --> Выход):
+
+6, 10 --> 32
+3, 3 --> 9*/
+
+
+
+/*const areaOrPerimeter = function(l , w) {
+    if(l===w){return l*w}
+    else {return l*2+w*2}
+};
+
+
+
+console.log(areaOrPerimeter(3,  3))
+console.log(areaOrPerimeter(6,  10))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Создайте функцию, которая принимает строку и один символ и возвращает целое число, соответствующее количеству вхождений второго аргумента в первом.
 
     Если вхождений не найдено, должно быть возвращено число */0.
 
 
-
+/*
 function strCount(str, letter){
     let res = str.toLowerCase().split('')
     let z = letter.toLowerCase()
@@ -20,10 +62,8 @@ function strCount(str, letter){
         if(res[i]===z){q=q+1}
     }
     return q
-}
+}*/
 
-console.log(strCount('Hello', 'o'))
-console.log(strCount('Hello', 'x'))
 
 
 
