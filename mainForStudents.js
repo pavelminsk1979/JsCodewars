@@ -3,12 +3,22 @@
 
 
 
+/*
+function whoIsPaying(name){
+   let res = []
+    res.push(name)
+    if(name.length>2){
+        let x = name.substring(0,2)
+        res.push(x)
+    }
+    return res
+}
 
 
-
-
-
-
+console.log(whoIsPaying("Mexico"))
+console.log(whoIsPaying("Melania"))
+console.log(whoIsPaying("Me"))
+console.log(whoIsPaying(""))*/
 
 
 
