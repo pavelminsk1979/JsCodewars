@@ -1,5 +1,60 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function pipeFix(numbers){
+
+let x = []
+    for (let i=numbers[0];i<numbers[numbers.length-1]+1;i++){
+        x.push(i)
+    }
+    return x
+}
+
+
+console.log(pipeFix([1,2,3,5,6,8,9]))
+console.log(pipeFix([6,9]))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Студент работал над функцией и допустил несколько синтаксических ошибок при кодировании. Помогите им найти свои ошибки и исправить их.
 */
