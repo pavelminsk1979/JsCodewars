@@ -2,6 +2,58 @@
 
 
 
+/*
+Твоя работа
+Найдите сумму всех кратных n меньше m
+
+Иметь ввиду
+n и m - натуральные числа (целые положительные числа)
+m исключается из кратных
+*/
+
+
+/*
+
+function sumMul(n,m){
+let x = Math.floor((m-1)/n)
+    let res = 0
+    for (let i=1;i<=x;i++){
+       res = res +n*i
+    }
+     if(res>0){
+        return res
+    }else {return 'INVALID'}
+}
+
+
+console.log(sumMul(2,9))
+console.log(sumMul(4, -7))
+console.log(sumMul(20, 3280))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
