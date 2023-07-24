@@ -2,6 +2,40 @@
 
 
 
+
+
+function findMultiples(integer, limit) {
+let res= []
+    let x = Math.floor(limit/integer)
+    for (let i=1;i<=x;i++){
+        res.push(integer*i)
+    }
+    return res
+}
+
+
+console.log(findMultiples(5, 25))
+console.log(findMultiples(4, 27))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Твоя работа
 Найдите сумму всех кратных n меньше m
