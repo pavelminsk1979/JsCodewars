@@ -2,7 +2,54 @@
 
 
 
+/*
 
+Завершите функцию, которая принимает два целых числа (a, b, где a < b), и верните массив всех целых чисел между входными параметрами, включая их.
+*/
+
+
+
+function between(a, b) {
+   if(a<b){
+       let res = []
+      for (let i=a;i<=b;i++){
+          res.push(i)
+      }
+      return res
+   }
+}
+
+
+console.log(between(1,4))
+console.log(between(-2,2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 function findMultiples(integer, limit) {
 let res= []
@@ -16,6 +63,7 @@ let res= []
 
 console.log(findMultiples(5, 25))
 console.log(findMultiples(4, 27))
+*/
 
 
 
