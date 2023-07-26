@@ -3,12 +3,48 @@
 
 
 /*
+Учитывая 2 строки, a и b, верните строку формы короткая + длинная + короткая, с более короткой строкой снаружи и более длинной строкой внутри. Строки не будут одинаковой длины, но могут быть пустыми (нулевой длины).*/
+
+
+
+
+/*
+function solution(a, b){
+    if(a.length<b.length){
+        return a.concat(b).concat(a)
+    }else {
+        return b.concat(a).concat(b)
+    }
+}
+
+console.log(solution('45', '1'))
+console.log(solution('13', '2000'))
+console.log(solution('Soon', 'Me'))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 Завершите функцию, которая принимает два целых числа (a, b, где a < b), и верните массив всех целых чисел между входными параметрами, включая их.
 */
 
 
 
+/*
 function between(a, b) {
    if(a<b){
        let res = []
@@ -22,6 +58,7 @@ function between(a, b) {
 
 console.log(between(1,4))
 console.log(between(-2,2))
+*/
 
 
 
