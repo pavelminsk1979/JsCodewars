@@ -1,5 +1,35 @@
 
 
+/*
+
+Создайте функцию, которая возвращает значение, умноженное на 50 и увеличенное на 6. Если введенное значение является строкой, оно должно возвращать «Ошибка».
+*/
+
+
+
+/*function problem(x){
+ if(typeof x ==='number'){
+     return x*50+6
+ } else {return 'Error'}
+}
+
+console.log(problem("hello"))
+console.log(problem(1))
+console.log(problem(5))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*Ваши одноклассники попросили вас скопировать для них некоторые документы. Вы знаете, что есть «n» одноклассников, а в документах «m» страниц.
 
@@ -8,13 +38,13 @@
 
 
 
-function paperwork(n, m) {
+/*function paperwork(n, m) {
 if(n<0||m<0){return 0}else {return n*m}
 }
 
 console.log(paperwork(5,5))
 console.log(paperwork(-5,5))
-console.log(paperwork(5,-5))
+console.log(paperwork(5,-5))*/
 
 
 
