@@ -1,4 +1,26 @@
 
+
+
+
+function plural(n) {
+    if(n===1){return false}
+    else {return true}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Я новичок в кодировании и теперь хочу получить сумму двух массивов... На самом деле сумму всех их элементов. Я буду признателен за вашу помощь.
 
@@ -6,14 +28,14 @@
 
 
 
-function arrayPlusArray(arr1, arr2) {
+/*function arrayPlusArray(arr1, arr2) {
     const x =  arr1.concat(arr2)
     return x.reduce((ac,el)=>ac+el)
 }
 
 
 console.log(arrayPlusArray([1, 2, 3], [4, 5, 6]))
-console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]))
+console.log(arrayPlusArray([-1, -2, -3], [-4, -5, -6]))*/
 
 
 
