@@ -26,6 +26,44 @@
 
 
 
+/*
+
+Возвращает новый массив, состоящий из элементов, кратных их собственному индексу во входном массиве (длина > 1).
+*/
+
+
+
+
+/*function multipleOfIndex(array) {
+    let res = []
+    for(let i=0;i<array.length;i++){
+
+        if(array[i]===0||array[i]%[i]===0){
+            res.push(array[i])
+        }
+    }
+    return res
+}
+
+
+console.log(multipleOfIndex([22, -6, 32, 82, 9, 25]))
+console.log(multipleOfIndex([0,2,3,6,9]))
+console.log(multipleOfIndex([68, -1, 1, -7, 10, 10]))
+console.log(multipleOfIndex([-56,-85,72,-26,-14,76,-27,72,35,-21,-67,87,0,21,59,27,-92,68]))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -58,9 +96,9 @@ function stringy(size) {
     return res
 }*/
 
-console.log(stringy(6))
+/*console.log(stringy(6))
 console.log(stringy(4))
-console.log(stringy(5))
+console.log(stringy(5))*/
 
 
 
