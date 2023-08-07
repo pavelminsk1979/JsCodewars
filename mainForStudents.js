@@ -5,13 +5,22 @@
 
 
 
+/*
+
+Напишите функцию, которая возвращает строку, в которой имя заменено на фамилию.
+*/
 
 
 
 
 
+/*function nameShuffler(str){
+    let res = str.split(' ')
+    let arr = [res[1],res[0]]
+ return arr.join(' ')
+}
 
-
+console.log(nameShuffler('john McClane'))*/
 
 
 
