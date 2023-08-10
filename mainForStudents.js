@@ -1,5 +1,42 @@
 
 
+/*
+Номер перепутан с текстом. Ваша цель — извлечь число из текста, сможете ли вы вернуть число в исходное состояние?
+
+    Задача
+    Ваша задача — вернуть число из строки.
+
+    Подробности
+Вам будет дана строка из перепутанных цифр и букв, вы должны вернуть все числа в этой строке в том порядке, в котором они встречаются.
+*/
+
+
+/*
+
+var filterString = function(value) {
+  return Number(value.split('').map(e=>Number(e)).filter(el=>el||el===0).join(''))
+}
+
+console.log(filterString('123'))
+console.log(filterString("a1b2c3"))
+console.log(filterString("aa1bb2cc3dd"))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
@@ -15,14 +52,14 @@
 
 
 
-function litres(time) {
+/*function litres(time) {
     return Math.floor(time*0.5);
 }
 
 
 console.log(litres(2))
 console.log(litres(1.4))
-console.log(litres(12.3))
+console.log(litres(12.3))*/
 
 
 
