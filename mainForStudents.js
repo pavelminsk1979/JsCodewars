@@ -1,5 +1,62 @@
 
 
+
+/*DropCaps означает, что первая буква начального слова абзаца должна быть заглавной, а остальные строчными, как вы видите в газете.
+
+    Но для разнообразия давайте проделаем это для каждого слова заданной строки. Ваша задача состоит в том, чтобы написать каждое слово, длина которого больше 2, с заглавной буквы, оставив меньшие слова такими, какие они есть.*/
+
+
+function dropCap(n) {
+let arr = n.split(' ')
+    let res = []
+    for(let i=0;i<arr.length;i++){
+if(arr[i].length<=2){
+    res.push(arr[i])
+}else{
+    let z = arr[i][0].toUpperCase()
+    let c= arr[i].toLowerCase().slice(1)
+    res.push(z+c)
+}
+
+
+    }
+    return res.join(' ')
+}
+
+console.log(dropCap('  leading spaces'))
+console.log(dropCap('ALL CAPS CRAZINESS'))
+console.log(dropCap('trailing spaces   '))
+console.log(dropCap('of'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 Номер перепутан с текстом. Ваша цель — извлечь число из текста, сможете ли вы вернуть число в исходное состояние?
 
