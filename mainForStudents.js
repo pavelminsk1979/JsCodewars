@@ -1,10 +1,60 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Ваша задача — написать функцию, которая принимает три целых числа a, b и c в качестве аргументов и возвращает True, если ровно два из трех целых чисел являются положительными числами (больше нуля), и False — в противном случае.*/
+
+
+/*
+function twoArePositive(a, b, c) {
+    if(a>0&&b>0&&c<=0)
+    {return true}
+    else if(a>0&&c>0&&b<=0){return true}
+    else if(b>0&&c>0&&a<=0){return true}
+    else {return  false}
+}
+
+console.log(twoArePositive(2, 4, -3))
+console.log(twoArePositive(-4, 6, 8))
+console.log(twoArePositive(-4, 6, 0))
+console.log(twoArePositive(4, 6, 10))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*DropCaps означает, что первая буква начального слова абзаца должна быть заглавной, а остальные строчными, как вы видите в газете.
 
     Но для разнообразия давайте проделаем это для каждого слова заданной строки. Ваша задача состоит в том, чтобы написать каждое слово, длина которого больше 2, с заглавной буквы, оставив меньшие слова такими, какие они есть.*/
 
+/*
 
 function dropCap(n) {
 let arr = n.split(' ')
@@ -27,6 +77,7 @@ console.log(dropCap('  leading spaces'))
 console.log(dropCap('ALL CAPS CRAZINESS'))
 console.log(dropCap('trailing spaces   '))
 console.log(dropCap('of'))
+*/
 
 
 
