@@ -1,5 +1,63 @@
 
 
+/*Преобразование 12-часового времени, такого как «8:30 утра» или «20:30 вечера», в 24-часовое время (например, «08:30» или «20:30») звучит достаточно просто, не так ли? Что ж, посмотрим, сможешь ли ты это сделать!
+
+    Вам нужно будет определить функцию, которой будет задан час (всегда в диапазоне от 1 до 12 включительно), минута (всегда в диапазоне от 0 до 59 включительно) и период (либо «am», или "pm") в качестве входных данных.
+
+    Ваша задача — вернуть четырехзначную строку, которая кодирует это время в 24-часовом формате.*/
+
+/*
+function to24hourtime(hour, minute, period) {
+    let res=''
+    if(period==='am'&&hour<10){
+        if(minute<10){
+            res=res+'0'+hour+'0'+minute
+        }else{
+            res=res+'0'+hour+minute
+        }
+    }
+    if(period==='am'&&hour>=10&&hour<12){
+        if(minute<10){
+            res=res+hour+'0'+minute
+        }else{
+            res=res+hour+minute
+        }
+    }
+    if(period==='am'&&hour==12){
+        if(minute<10){
+            res=res+'0'+'0'+'0'+minute
+        }else{
+            res=res+'0'+'0'+minute
+        }
+    }
+    if(period==='pm'&&hour<12){
+        if(minute<10){
+            res = res+(12+hour)+'0'+minute
+        }else{
+            res = res+(12+hour)+minute
+        }
+
+    }
+    if(period==='pm'&&hour===12){
+        if(minute<10){
+            res = res+'12'+'0'+minute
+        }else{
+            res = res+'12'+minute
+        }
+
+    }
+
+    return res;
+}
+
+console.log(to24hourtime(1,  0, "am"))
+console.log(to24hourtime(1,  0, "pm"))
+console.log(to24hourtime(12,  0, "am"))
+console.log(to24hourtime(12,  0, "pm"))
+console.log(to24hourtime(6,  30, "am"))
+console.log(to24hourtime(9,  45, "pm"))
+console.log(to24hourtime(10,  47, "am"))*/
+
 
 
 
