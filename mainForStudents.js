@@ -1,5 +1,37 @@
 
 
+/*Создайте функцию, которая проверяет, делится ли первый аргумент n на все остальные аргументы (возвратите true, если нет других аргументов)*/
+
+
+
+function isDivisible(...arr){
+    let x = arr[0]
+    arr.shift()
+    for(let i=0;i<arr.length;i++){
+       if(x%arr[i]!==0){return false}
+    }
+    return true
+}
+
+console.log(isDivisible(3,3,4))
+console.log(isDivisible(12,3,4))
+console.log(isDivisible(8,3,4,2,5))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 Понедельник --> 12
