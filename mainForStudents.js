@@ -1,8 +1,62 @@
 
 
+/*
+function disemvowel(str) {
+
+    return str.split('').filter(e=>e!=='i'&&e!=='e'&&e!=='o'&&e!=='a'&&e!=='u'&&e!=='I'&&e!=='E'&&e!=='O'&&e!=='A'&&e!=='U').join('')
+}
+
+console.log(disemvowel("This website is for losers LOL!"))
+console.log(disemvowel("No offense but,\nYour writing is among the worst I've ever read"))
+console.log(disemvowel("What are you, a communist?"))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*Создайте функцию, которая проверяет, делится ли первый аргумент n на все остальные аргументы (возвратите true, если нет других аргументов)*/
 
 
+/*
 
 function isDivisible(...arr){
     let x = arr[0]
@@ -17,6 +71,7 @@ console.log(isDivisible(3,3,4))
 console.log(isDivisible(12,3,4))
 console.log(isDivisible(8,3,4,2,5))
 
+*/
 
 
 
