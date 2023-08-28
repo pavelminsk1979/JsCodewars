@@ -1,4 +1,17 @@
 
+function breakChocolate(n,m) {
+    if(n>0&&m>0){
+        let x =n-1
+        let y= n*(m-1)
+
+        return x+y;
+    } else {return 0}
+
+}
+
+
+console.log(breakChocolate(5,5))
+
 
 /*
 function disemvowel(str) {
