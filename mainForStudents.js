@@ -1,5 +1,54 @@
 
-function breakChocolate(n,m) {
+/*
+Пример
+Для n = 22 выходное значение должно быть 4.
+
+И сумма, и произведение цифр равны 4, а LCM(4, 4) = 4.
+
+Для n = 1234 выходное значение должно быть 120.
+
+1+2+3+4=10 и 1*2*3*4=24, НОК(10,24)=120
+НОК  это число наименьшее на которое без остатка поделится
+и сумма и произведение */
+
+
+
+function a (n) {
+
+return n.split(' ').map(e=>e[0].toUpperCase()+e.slice(1)).join(' ')
+}
+
+
+
+console.log(a("How can mirrors be real if our eyes aren't real"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function breakChocolate(n,m) {
     if(n>0&&m>0){
         let x =n-1
         let y= n*(m-1)
@@ -10,7 +59,7 @@ function breakChocolate(n,m) {
 }
 
 
-console.log(breakChocolate(5,5))
+console.log(breakChocolate(5,5))*/
 
 
 /*
