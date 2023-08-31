@@ -6,6 +6,53 @@
 
 
 
+
+
+
+
+
+/*
+function triangular( n ) {
+    if(n<=0){return 0}
+    let arr = []
+    for (let i=1; i<=n;i++){
+       arr.push(i)
+    }
+    return arr.reduce((acc,el)=>acc+el)
+}
+*/
+/*function triangular( n ) {
+    if(n<=0){return 0}
+ let res = n
+    for(let i=1; i<=n;i++){
+        res=res+(n-i)
+    }
+    return res
+}
+
+
+console.log(triangular(2))
+console.log(triangular(4))
+console.log(triangular(-35))
+console.log(triangular(25099822))*/
+
+
+
+/*triangular(25099822) should equal 315000544765753*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function getMean(arr, x, y) {
     if(x<2){return -1}
