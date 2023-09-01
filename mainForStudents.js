@@ -11,6 +11,60 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function boredom(staff){
+    let res=[]
+    for (let key in staff){
+        res.push(staff[key])
+    }
+    const z = {
+        accounts: 1,
+        finance: 2,
+        canteen: 10,
+        regulation: 3,
+        trading: 6,
+        change: 6,
+        IS: 8,
+        retail: 5,
+        cleaning: 4,
+        "pissing about": 25
+    };
+   let bbb=0
+    for(let i=0;i<res.length;i++)
+    {bbb=bbb+ z[res[i]]}
+    if(bbb<=80){return  'kill me now'}
+    if(bbb>80&&bbb<100){return  'i can handle this'}
+    if(bbb>=100){return  'party time!'}
+    return bbb
+
+
+}
+
+console.log(boredom({ tim: 'IS', jim: 'finance',
+    randy: 'pissing about', sandy: 'cleaning', andy: 'cleaning',
+    katie: 'cleaning', laura: 'pissing about', saajid: 'regulation',
+    alex: 'regulation', john: 'accounts', mr: 'canteen' }))*/
+
+
+
+
+
+
+
+
 /*
 function triangular( n ) {
     if(n<=0){return 0}
