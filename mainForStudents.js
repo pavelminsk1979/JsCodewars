@@ -2,6 +2,29 @@
 
 
 
+function areaCode(text) {
+
+    let start=text.indexOf('(')
+    let finish=text.indexOf(')')
+    return text.slice(start+1,finish)
+
+}
+
+console.log(areaCode("The supplier's phone number is (555) 867-5309"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -17,13 +40,13 @@
 а затем возвращает произведение всех обработанных подсписков: -3 * -1 * 1 --> 3.*/
 
 
-function processData(data){
+/*function processData(data){
     return data.map(e=>e[0]-e[1]).reduce((acc,el) => acc*el )
 }
 
 
 console.log(processData([[2, 5], [3, 4], [8, 7]]))
-console.log(processData([[2, 9], [2, 4], [7, 5]]))
+console.log(processData([[2, 9], [2, 4], [7, 5]]))*/
 
 
 
