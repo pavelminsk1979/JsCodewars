@@ -2,6 +2,59 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function quotable(name, quote){
+
+
+   return `${name} said: "${quote}"`
+}
+
+console.log(quotable('Grae', 'Practice makes perfect'))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function areaCode(text) {
 
     let start=text.indexOf('(')
@@ -10,7 +63,7 @@ function areaCode(text) {
 
 }
 
-console.log(areaCode("The supplier's phone number is (555) 867-5309"))
+console.log(areaCode("The supplier's phone number is (555) 867-5309"))*/
 
 
 
