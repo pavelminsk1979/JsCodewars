@@ -1,8 +1,21 @@
 
 
+function maxDiff(list) {
+    if(list.length===1){return 0}else if (list.length === 0){
+        return 0;
+    } else{
+        let max = Math.max(...list);
+        let min = Math.min(...list);
+        return max-min
+    }
 
+};
 
-
+console.log(maxDiff([0, 1, 2, 3, 4, 5, 6]))
+console.log(maxDiff([-0, 1, 2, -3, 4, 5, -6]))
+console.log(maxDiff([0, 1, 2, 3, 4, 5, 16]))
+console.log(maxDiff([16]))
+console.log(maxDiff([]))
 
 
 
