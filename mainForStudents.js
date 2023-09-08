@@ -1,6 +1,41 @@
 
 
-function maxDiff(list) {
+
+
+/*function solution(nums){
+    if(nums===null){return []}
+for(let i =0;i<nums.length;i++){
+    for(let j=0;j<nums.length;j++){
+        if(nums[j]>nums[j+1]){
+            let z=nums[j]
+            nums[j]= nums[j+1]
+            nums[j+1]=z
+        }
+    }
+}
+return nums
+}
+
+
+console.log(solution([1,2,3,10,5]))
+console.log(solution(null))
+console.log(solution([]))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function maxDiff(list) {
     if(list.length===1){return 0}else if (list.length === 0){
         return 0;
     } else{
@@ -15,7 +50,7 @@ console.log(maxDiff([0, 1, 2, 3, 4, 5, 6]))
 console.log(maxDiff([-0, 1, 2, -3, 4, 5, -6]))
 console.log(maxDiff([0, 1, 2, 3, 4, 5, 16]))
 console.log(maxDiff([16]))
-console.log(maxDiff([]))
+console.log(maxDiff([]))*/
 
 
 
