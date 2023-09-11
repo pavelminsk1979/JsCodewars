@@ -2,6 +2,25 @@
 
 
 
+function cookPancakes(n, m) {
+
+    if(n<=m){return 2}else {return Math.ceil(n/m*2}
+
+}
+
+console.log(cookPancakes(1,2))
+console.log(cookPancakes(2,2))
+console.log(cookPancakes(4,2))
+
+
+
+
+
+
+
+
+
+
 /*function solution(nums){
     if(nums===null){return []}
 for(let i =0;i<nums.length;i++){
