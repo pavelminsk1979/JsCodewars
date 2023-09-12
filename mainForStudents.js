@@ -2,9 +2,44 @@
 
 
 
+
+
+
+
+
+
+/*function removeUrlAnchor(url){
+  let x =  url.split('')
+    let z = x.indexOf('#')
+    if(z>0){
+        return x.slice(0,z).join('')
+    } else { return url}
+
+
+}
+
+console.log(removeUrlAnchor('www.codewars.com#about'))
+console.log(removeUrlAnchor('www.codewars.com/katas/'))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function cookPancakes(n, m) {
 
-    if(n<=m){return 2}else {return Math.ceil(n/m*2}
+    if(n<=m){return 2}else {return Math.ceil(n/m*2)}
 
 }
 
@@ -13,6 +48,7 @@ console.log(cookPancakes(2,2))
 console.log(cookPancakes(4,2))
 
 
+*/
 
 
 
