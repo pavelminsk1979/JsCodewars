@@ -8,6 +8,43 @@
 
 
 
+
+
+
+/*function printerError(s) {
+let x= s.length
+
+    let z= s.split('')
+    let one=[]
+    let two=[]
+    for(let i=0;i<z.length;i++){
+        if(z[i]==='a'||z[i]==='b'||z[i]==='c'||z[i]==='d'||z[i]==='e'||z[i]==='f'||z[i]==='g'||z[i]==='h'||z[i]==='i'||z[i]==='j'||z[i]==='k'||z[i]==='l'||z[i]==='m'){one.push(z[i])} else {two.push(z[i])}
+    }
+    return `${two.length}/${x}`
+}
+
+console.log(printerError("aaabbbbhaijjjm"))
+console.log(printerError("aaaxbbbbyyhwawiwjjjwwm"))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*function removeUrlAnchor(url){
   let x =  url.split('')
     let z = x.indexOf('#')
