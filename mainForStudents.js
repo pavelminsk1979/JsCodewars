@@ -1,4 +1,87 @@
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function toLeetSpeak(str) {
+    let obj= {
+        A : '@',
+        B : '8',
+        C : '(',
+        D : 'D',
+        E : '3',
+        F : 'F',
+        G : '6',
+        H : '#',
+        I : '!',
+        J : 'J',
+        K : 'K',
+        L : '1',
+        M : 'M',
+        N : 'N',
+        O : '0',
+        P : 'P',
+        Q : 'Q',
+        R : 'R',
+        S : '$',
+        T : '7',
+        U : 'U',
+        V : 'V',
+        W : 'W',
+        X : 'X',
+        Y : 'Y',
+        Z : '2'
+    }
+    let z= str.split('')
+    let rez=[]
+    for (let i=0;i<z.length;i++){
+        let bb=z[i]
+        if(bb===' '){rez.push(' ')}else {
+            rez.push(  obj[bb])
+        }
+
+    }
+    return rez.join('')
+}
+
+console.log(toLeetSpeak("O WORLD"))
+
+console.log(toLeetSpeak("LEET"))
+console.log(toLeetSpeak("CODEWARS"))
+console.log(toLeetSpeak("HELLO WORLD"))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*В банкомате имеются купюры номиналом 10, 20, 50, 100, 200 и 500 долларов. Можно считать, что каждой из этих банкнот имеется достаточно большой запас.
 
     Вам нужно написать функцию банкомата, которая определяет минимальное количество банкнот, необходимое для снятия n долларов, при этом 1 <= n <= 1500.
