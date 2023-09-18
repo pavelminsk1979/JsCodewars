@@ -2,10 +2,19 @@
 
 
 
+function tiyFizzBuzz(sentence){
+let x = sentence.split('')
+    let a= x.map(e=>e==='a'||e==='e'||e==='i'||e==='o'||e==='u'?e='Yard':e)
+    let aaa= a.map(e=>e==='A'||e==='E'||e==='I'||e==='O'||e==='U'?e='Iron Yard':e)
+    return aaa.map(e=>e==='B'||e==='C'||e==='D'||e==='F'||e==='G'||e==='H'||e==='J'||e==='K'||e==='L'||e==='M'||e==='N'||e==='P'||e==='Q'||e==='R'||e==='S'||e==='T'||e==='V'||e==='W'||e==='X'||e==='Y'||e==='Z'?e='Iron':e).join('')
+}
 
 
-
-
+console.log(tiyFizzBuzz('Hello WORLD!'))
+console.log(tiyFizzBuzz('a'))
+console.log(tiyFizzBuzz('b'))
+console.log(tiyFizzBuzz('H'))
+console.log(tiyFizzBuzz('A'))
 
 
 
