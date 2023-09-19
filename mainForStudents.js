@@ -2,6 +2,62 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function getMinMax(arr){
+    let min= arr.reduce((acc,el)=>acc<el?acc:el)
+    let max= arr.reduce((acc,el)=>acc>el?acc:el)
+    return [min,max]
+};
+
+
+console.log(getMinMax([1]))
+console.log(getMinMax([1,2]))
+console.log(getMinMax([2,1]))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function tiyFizzBuzz(sentence){
 let x = sentence.split('')
     let a= x.map(e=>e==='a'||e==='e'||e==='i'||e==='o'||e==='u'?e='Yard':e)
@@ -15,6 +71,7 @@ console.log(tiyFizzBuzz('a'))
 console.log(tiyFizzBuzz('b'))
 console.log(tiyFizzBuzz('H'))
 console.log(tiyFizzBuzz('A'))
+*/
 
 
 
