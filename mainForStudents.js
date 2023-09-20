@@ -1,10 +1,21 @@
 
 
 
+function explode(s) {
+    let arr= s.split('')
+    let res=[]
+    for (let i=0;i<arr.length;i++){
+         let x = Array( Number(arr[i]))
+       res=res.concat( x.fill(arr[i]))
+
+    }
+    return res.join('')
+}
 
 
-
-
+console.log(explode("312"))
+console.log(explode("102269"))
+console.log(explode("000"))
 
 
 
