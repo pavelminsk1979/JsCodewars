@@ -1,7 +1,60 @@
 
 
 
-function explode(s) {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function keepOrder(ary, val) {
+   let a = ary.concat(val)
+    for(let i=0;i<a.length;i++){
+        for(let j=0;j<a.length;j++){
+            if(a[j]>a[j+1]){
+                let draft=a[j]
+                a[j]=a[j+1]
+                a[j+1]=draft
+            }
+        }
+    }
+    return a.indexOf(val)
+}
+
+console.log(keepOrder([1, 2, 3, 4, 7], 5))
+console.log(keepOrder([1, 2, 3, 4, 7], 0))
+console.log(keepOrder([1, 1, 2, 2, 2], 2))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function explode(s) {
     let arr= s.split('')
     let res=[]
     for (let i=0;i<arr.length;i++){
@@ -15,7 +68,7 @@ function explode(s) {
 
 console.log(explode("312"))
 console.log(explode("102269"))
-console.log(explode("000"))
+console.log(explode("000"))*/
 
 
 
