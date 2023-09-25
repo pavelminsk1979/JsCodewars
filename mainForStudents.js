@@ -22,6 +22,45 @@
 
 
 
+/*
+
+function center (strng, width, fill = ' ')  {
+   if(strng.length>=width){return strng} else if (strng.length===0){
+       return fill.repeat(+width)
+   }
+   else {
+       let num = width-strng.length
+       let z= num/2
+        if(z%1===0){return fill.repeat(z)+strng+fill.repeat(z)}
+     else{return fill.repeat(z+1)+strng+fill.repeat(z)}
+
+   }
+}
+
+
+console.log(center("a", 3, ' '))
+console.log(center("abcdefg", 2, ' '))
+console.log(center("abc", 10, '_'))
+console.log(center("", 3, '_'))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
