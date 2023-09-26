@@ -1,6 +1,19 @@
 
 
+function divisors(integer) {
+let res=[]
+    for (let i=2;i<integer;i++){
+        if( integer/i%1===0){
+            res.push(i)
+        }
+    }
+    if(res.length===0){return `${integer} is prime`}
+    else {return res}
+};
 
+console.log(divisors(15))
+console.log(divisors(12))
+console.log(divisors(13))
 
 
 
