@@ -1,23 +1,34 @@
-function solve(arr) {
-    let data = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
-let rez=[]
-    for (let i = 0; i < arr.length; i++) {
-        let z = arr[i].split('')
-        let num = 0
-        for (let j = 0; j < z.length; j++) {
-            if( z[j].toUpperCase() ===data[j].toUpperCase()){
-                num++
-            }
-        }
-        rez.push(num)
+
+
+
+function convertToMixedNumeral(parm){
+   let x =  parm.split('/')
+    let z= x[0]/x[1]
+    let g = x[0]-Math.floor(z)*x[1]
+    if(z%1===0){return String(z)} else {
+        return `${Math.floor(z)} ${g}/${x[1]}`
     }
-    return rez
+}
 
 
-};
+console.log(convertToMixedNumeral('6/2'))
+console.log(convertToMixedNumeral('74/3'))
+console.log(convertToMixedNumeral('9/18'))
 
 
-console.log(solve(["abode", "ABc", "xyzD"]))
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
