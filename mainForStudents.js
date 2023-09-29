@@ -1,6 +1,108 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+/!*
+0 = sıfır
+1 = bir
+2 = iki
+3 = üç
+4 = dört
+5 = beş
+6 = altı
+7 = yedi
+8 = sekiz
+9 = dokuz
+
+10 = on
+20 = yirmi
+30 = otuz
+40 = kırk
+50 = elli
+60 = altmış
+70 = yetmiş
+80 = seksen
+90 = doksan*!/
+
+
+const getTurkishNumber = (num) => {
+    let a ={0 : 'sıfır',
+        1 : 'bir',
+        2 : 'iki',
+        3 : 'üç',
+        4 : 'dört',
+        5 : 'beş',
+        6 : 'altı',
+        7 : 'yedi',
+        8 : 'sekiz',
+        9 : 'dokuz',}
+    let aaa={10 :'on',
+        20 :'yirmi',
+        30 :'otuz',
+        40 :'kırk',
+        50 :'elli',
+        60 :'altmış',
+        70 :'yetmiş',
+        80 :'seksen',
+        90 :'doksan'}
+if(num<10) {return a[num]}
+else {let x= String(num)[0]*10
+    let y = String(num)[1]
+    if(+y===0){return aaa[+x] } else {
+return aaa[+x]+' '+a[y]}}
+}
+
+
+console.log(getTurkishNumber(0))
+console.log(getTurkishNumber(16))
+console.log(getTurkishNumber(70))
+console.log(getTurkishNumber(80))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function convertToMixedNumeral(parm){
    let x =  parm.split('/')
     let z= x[0]/x[1]
@@ -17,6 +119,7 @@ console.log(convertToMixedNumeral('9/18'))
 
 
 
+*/
 
 
 
