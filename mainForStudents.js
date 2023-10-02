@@ -24,6 +24,91 @@
 
 
 
+/*
+
+
+function vampireTest(a, b) {
+   let multiplyArr= String(a*b).split('')
+    let mun=(String(a)+String(b)).split('')
+
+ for(let i=0;i<mun.length;i++){
+     for (let j=0;j<mun.length;j++){
+        if(mun[j]>mun[j+1]){
+            let storage= mun[j]
+            mun[j]=mun[j+1]
+            mun[j+1]=storage
+        }
+     }
+
+ }
+    for(let i=0;i<multiplyArr.length;i++){
+        for (let j=0;j<multiplyArr.length;j++){
+            if(multiplyArr[j]>multiplyArr[j+1]){
+                let storage= multiplyArr[j]
+                multiplyArr[j]=multiplyArr[j+1]
+                multiplyArr[j+1]=storage
+            }
+        }
+
+    }
+    let res=[]
+    for(let n=0;n<mun.length;n++){
+        if(mun[n]===multiplyArr[n]){
+            res.push(true)
+        }else {res.push(false)}
+    }
+    return res.every(e=>e===true)
+}
+
+console.log(vampireTest(21,6))
+console.log(vampireTest(204,615))
+console.log(vampireTest(10,11))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
