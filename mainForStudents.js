@@ -3,10 +3,19 @@
 
 
 
+function totalAmountVisible(topNum, numOfSides){
+    let a= numOfSides/2
+    let x=numOfSides+1
+   let z= a*x
+    let bbb= x-topNum
+    return z-bbb
+
+}
 
 
-
-
+console.log(totalAmountVisible(3,6))
+console.log(totalAmountVisible(3,8))
+console.log(totalAmountVisible(1,12))
 
 
 
