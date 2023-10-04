@@ -1,9 +1,47 @@
 
 
 
+/*
+function getMean(arr, x, y) {
+    if(x<2){return -1}
+    if(y<2){return -1}
+    if(y>arr.length){return -1}
+    if(x>arr.length){return -1}
+    let one=0
+    for(let i=0;i<x;i++){
+        one=one+arr[i]
+    }
+    let arrRevers= arr.reverse()
+    let two = 0
+    for(let i=0;i<y;i++){
+        two=two+arrRevers[i]
+    }
+    let averageOne= one/x
+    let averageTwo= two/y
+    return  (averageOne+averageTwo)/2
+
+}
 
 
-function totalAmountVisible(topNum, numOfSides){
+console.log(getMean([1,3,2,4],2,3))
+console.log(getMean([1,3,2],2,2))
+console.log(getMean([1,3,2,4],1,2))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function totalAmountVisible(topNum, numOfSides){
     let a= numOfSides/2
     let x=numOfSides+1
    let z= a*x
@@ -15,7 +53,7 @@ function totalAmountVisible(topNum, numOfSides){
 
 console.log(totalAmountVisible(3,6))
 console.log(totalAmountVisible(3,8))
-console.log(totalAmountVisible(1,12))
+console.log(totalAmountVisible(1,12))*/
 
 
 
