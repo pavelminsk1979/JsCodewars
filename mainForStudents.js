@@ -1,8 +1,34 @@
 
 
+function tacofy(word) {
+  let x = {
+      t: 'tomato',
+      l :'lettuce',
+      c: 'cheese',
+      g: 'guacamole',
+      s: 'salsa',
+      a:'beef',
+      e:'beef',
+      i:'beef',
+      o:'beef',
+      u:'beef',
+  }
+let y= word.split('')
+    let res=['shell']
+    for(let i=0;i<y.length;i++){
+        if(x[y[i].toLowerCase()]){
+            res.push(x[y[i].toLowerCase()])
+        }
 
+    }
+     res.push('shell')
+    return res
+}
 
-
+console.log(tacofy(''))
+console.log(tacofy('a'))
+console.log(tacofy('gg'))
+console.log(tacofy('ogmmml'))
 
 
 
