@@ -1,5 +1,77 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function wheresWally(string){
+    let x=  string.split(' ')
+    let ind= string.indexOf('Wally' )
+ let oooo= x.map(el => el.slice(0,5))
+    let res=[]
+
+    for ( let i=0;i<oooo.length;i++){
+        if(oooo[i]==='Wally'){
+            res.push(true)
+
+        }else { res.push(false)}
+    }
+
+
+
+    if(res.some(e=>e===true)){return ind}else{
+       return -1}
+    }
+
+
+
+
+
+console.log(wheresWally('Hi Wally.'))
+console.log(wheresWally("Where's Wally"))
+console.log(wheresWally('DWally'))
+console.log(wheresWally('.Wally'))
+console.log(wheresWally('Wally'))
+console.log(wheresWally('Hi Wally'))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function tacofy(word) {
   let x = {
       t: 'tomato',
@@ -31,6 +103,7 @@ console.log(tacofy('gg'))
 console.log(tacofy('ogmmml'))
 
 
+*/
 
 
 
