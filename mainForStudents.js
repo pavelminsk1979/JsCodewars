@@ -1,10 +1,50 @@
 
 
 
+function catMouse(x){
+let b= x.split('')
+    let res=[]
+    for(let i=0;i<5;i++){
+        if(b[i]==="m"){ res.push(true)}else {res.push(false)}
+
+    }
+     if(res.some(e=>e)){return 'Caught!'} else {return 'Escaped!'}
+}
+
+
+console.log(catMouse('C...m'))
+console.log(catMouse('C..m'))
+console.log(catMouse('C.....m'))
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+/*
+function cupVolume(d1, d2, height){
+    const r1=d1/2
+    const r2=d2/2
+    const h=height
+    const p= 3.14159
+    let res= (1/3)*p*h*(r1*r1+r1*r2+r2*r2)
+    return Math.round(res * 100) / 100;
+
+}
+
+console.log(cupVolume(10,8,10))
+console.log(cupVolume(1000,1000,1000))
+console.log(cupVolume(13.123, 123.12, 1))
+
+*/
 
 
 
