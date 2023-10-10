@@ -1,6 +1,64 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function switcheroo(x){
+ let z=x.split('')
+    let res=[]
+    for (let i=0;i<z.length;i++){
+        if(z[i]==='a'){
+            res.push('b')
+        }if(z[i]==='b'){res.push('a')}
+        if(z[i]==='c'){res.push('c')}
+    }
+    return res.join('')
+}
+
+
+console.log(switcheroo('abc'))
+console.log(switcheroo('aabb'))
+console.log(switcheroo('aaabcccbaaa'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function catMouse(x){
 let b= x.split('')
     let res=[]
@@ -17,6 +75,7 @@ console.log(catMouse('C..m'))
 console.log(catMouse('C.....m'))
 
 
+*/
 
 
 
