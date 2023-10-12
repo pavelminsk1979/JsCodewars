@@ -23,7 +23,7 @@
 
 /*
 
-
+11
 
 /!*function validatePIN (pin) {
 let a=pin.split('')
