@@ -21,6 +21,64 @@
 
 
 
+/*
+
+
+
+/!*function validatePIN (pin) {
+let a=pin.split('')
+    let x=[]
+    for (let i=0;i<a.length;i++){
+        if(a[i]!=='-'){x.push(a[i])}
+    }
+let n=x.join('')
+
+     if (n.includes('.')){return false} else if(isNaN(+n)){return false} else if (pin.length===4||pin.length===6||n.length===6||n.length===4){return true}else {return false}
+}*!/
+
+
+function validatePIN (pin) {
+    let x=''
+    if(pin.length===4||pin.length===6) {x=pin}
+    let a= x.split('')
+    let y=[]
+    for (let i=0;i<a.length;i++){
+        if(a[i]==='0'||a[i]==='1'||a[i]==='2'||a[i]==='3'||a[i]==='4'||a[i]==='5'||a[i]==='6'||a[i]==='7'||a[i]==='8'||a[i]==='9'){y.push(true)} else { y.push(false)}
+    }
+    return y.length>0&&y.every(e=>e)
+/!*    let a=pin.split('')
+    let x=[]
+    for (let i=0;i<a.length;i++){
+        if(a[i]!=='-'){x.push(a[i])}
+    }
+    let n=x.join('')
+
+    if (n.includes('.')){return false} else if(isNaN(+n)){return false} else if (pin.length===4||pin.length===6||n.length===6||n.length===4){return true}else {return false}*!/
+}
+
+console.log(validatePIN('-12345'))
+console.log(validatePIN('-1234'))
+console.log(validatePIN('-1.234'))
+console.log(validatePIN('.234'))
+console.log(validatePIN('2223'))
+console.log(validatePIN('333'))
+console.log(validatePIN('555555'))
+console.log(validatePIN('dg55'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
