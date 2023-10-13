@@ -21,6 +21,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+/*
+
+function solve(compasses, gears, tablets) {
+ /!*  let a = 0
+    if(compasses>0&&gears>0&&tablets>0){
+        a=7
+    }*!/
+    let k=0
+    if(compasses<gears){k=compasses}else {k=gears}
+    let res=0
+    if(k<tablets){res=k}else {res=tablets}
+    let num= 0
+    if(res===0){num=0}else{num=7*res}
+   let b = compasses*compasses+gears*gears+tablets*tablets
+    return num+b
+}
+
+console.log(solve(0,0,0))
+console.log(solve(1,1,1))
+console.log(solve(2,1,1))
+console.log(solve(7,2,2))
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 11
