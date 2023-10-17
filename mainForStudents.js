@@ -2,15 +2,22 @@
 
 
 
+/*
 
 
+function isAnagram(test, original){
+
+let a= test.toLowerCase().split('').sort().join('')
+    let b= original.toLowerCase().split('').sort().join('')
+    return a===b
+};
 
 
+console.log(isAnagram("ound", "round"))
+console.log(isAnagram("foefet", "toffee"))
 
 
-
-
-
+*/
 
 
 
