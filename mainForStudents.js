@@ -4,6 +4,39 @@
 
 /*
 
+function XO(str) {
+   let a = str.toLowerCase().split('')
+    let xx=[]
+    let oo =[]
+    for(let i=0;i<a.length;i++){
+        if(a[i]==='x'){xx.push('1')}if(a[i]==='o'){oo.push('1')}
+    }
+    return xx.length===oo.length
+}
+
+console.log(XO('xo'))
+console.log(XO('xxOo'))
+console.log(XO('xxxm'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 
 function isAnagram(test, original){
 
