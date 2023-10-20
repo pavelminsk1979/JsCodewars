@@ -1,12 +1,55 @@
+function tapCodeTranslation(text) {
+    let a = text.split(' ')
+    let res = []
+    for (let i = 0; i < a.length; i++) {
+        res.push(String(a[i].length))
+    }
+    let bb = []
+    for (let j = 0; j < a.length; j++) {
+        if (res[0]) {
+            bb.push(res[0] + res[1])
+            res.shift()
+            res.shift()
+        }
+    }
+    let nnn = {
+        11: 'a',
+        12: 'b',
+        13: 'k',
+        14: 'd',
+        15: 'e',
+        21: 'f',
+        22: 'g',
+        23: 'h',
+        24: 'i',
+        25: 'j',
+        31: 'l',
+        32: 'm',
+        33: 'n',
+        34: 'o',
+        35: 'p',
+        41: 'q',
+        42: 'r',
+        43: 's',
+        44: 't',
+        45: 'u',
+        51: 'v',
+        52: 'w',
+        53: 'x',
+        54: 'y',
+        55: 'z',
+    }
+
+    let result = []
+    for (let q = 0; q < bb.length; q++) {
+        result.push(nnn[bb[q]])
+    }
+
+    return `Text: "${result.join('')}" `
+    }
 
 
-
-
-
-
-
-
-
+console.log(tapCodeTranslation('.... .... . ..... .... ... .... ....'))
 
 
 
@@ -727,7 +770,7 @@ function convertToMixedNumeral(parm){
     let z= x[0]/x[1]
     let g = x[0]-Math.floor(z)*x[1]
     if(z%1===0){return String(z)} else {
-        return `${Math.floor(z)} ${g}/${x[1]}`
+        return `${Math.floor(z)} ${g} /${x[1]}`
     }
 }
 
@@ -762,7 +805,9 @@ let res=[]
             res.push(i)
         }
     }
-    if(res.length===0){return `${integer} is prime`}
+    if(res.length===0){return `${integer}
+    is
+    prime`}
     else {return res}
 };
 
@@ -1020,7 +1065,7 @@ let x= s.length
     for(let i=0;i<z.length;i++){
         if(z[i]==='a'||z[i]==='b'||z[i]==='c'||z[i]==='d'||z[i]==='e'||z[i]==='f'||z[i]==='g'||z[i]==='h'||z[i]==='i'||z[i]==='j'||z[i]==='k'||z[i]==='l'||z[i]==='m'){one.push(z[i])} else {two.push(z[i])}
     }
-    return `${two.length}/${x}`
+    return `${two.length} /${x}`
 }
 
 console.log(printerError("aaabbbbhaijjjm"))
@@ -1099,7 +1144,8 @@ console.log(maxDiff([]))*/
 function quotable(name, quote){
 
 
-   return `${name} said: "${quote}"`
+   return `${name}
+    said: "${quote}"`
 }
 
 console.log(quotable('Grae', 'Practice makes perfect'))
