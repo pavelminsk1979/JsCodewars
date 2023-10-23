@@ -1,3 +1,72 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Array.prototype.sum = function() {
+    let a= this
+    if(a.length){
+        return a.reduce((ac,el)=>ac+el)
+    } else{return 0}
+
+
+}
+
+console.log([-2,-1,-5].sum())
+console.log([].sum())
+Array.range = function(start, count) {
+    let a = []
+    for(let i=start;i<start+count;i++){
+        a.push(i)
+    }
+    return a
+}
+
+
+console.log(Array.range(-2,5))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function tapCodeTranslation(text) {
     let a = text.split(' ')
     let res = []
@@ -51,6 +120,7 @@ function tapCodeTranslation(text) {
 
 console.log(tapCodeTranslation('.... .... . ..... .... ... .... ....'))
 
+*/
 
 
 
