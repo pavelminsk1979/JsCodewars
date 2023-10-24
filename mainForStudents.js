@@ -23,6 +23,34 @@
 
 
 /*
+function sortByArea(array) {
+    let a = []
+    for (let i = 0; i < array.length; i++) {
+        if (Number.isFinite(array[i])) {
+            a.push(3.14 * (array[i] * array[i]))
+        } else {
+            a.push(array[i][0] * array[i][1])
+        }
+    }
+    let obj={}
+    for(let j=0;j<array.length;j++){
+       obj[a[j]]=array[j]
+    }
+
+    let xx= a.sort((a,b)=>a-b)
+    let result =[]
+    for(let n=0;n<xx.length;n++){
+        result.push(obj[xx[n]])
+    }
+    return result
+}
+
+console.log(sortByArea([[4.23, 6.43], 1.23, 3.444, [1.342, 3.212]]))
+console.log(sortByArea([[2, 5], 6]))
+
+*/
+
+/*
 
 Array.prototype.sum = function() {
     let a= this
@@ -48,22 +76,6 @@ console.log(Array.range(-2,5))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -123,18 +135,6 @@ console.log(tapCodeTranslation('.... .... . ..... .... ... .... ....'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -159,30 +159,6 @@ console.log(findArray([0, 1, 5, 2, 1, 8, 9, 1, 5], [1, 4, 7]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function XO(str) {
@@ -203,19 +179,6 @@ console.log(XO('xxxm'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -234,12 +197,6 @@ console.log(isAnagram("foefet", "toffee"))
 */
 
 
-
-
-
-
-
-
 /*function openOrSenior(data){
     let res = []
    for(let i=0;i<data.length;i++){
@@ -251,32 +208,6 @@ console.log(isAnagram("foefet", "toffee"))
 }
 
 console.log(openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]))*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -305,18 +236,6 @@ console.log(solve(7,2,2))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -367,18 +286,6 @@ console.log(validatePIN('dg55'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function switcheroo(x){
@@ -402,17 +309,6 @@ console.log(switcheroo('aaabcccbaaa'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function catMouse(x){
@@ -434,16 +330,6 @@ console.log(catMouse('C.....m'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 function cupVolume(d1, d2, height){
     const r1=d1/2
@@ -460,20 +346,6 @@ console.log(cupVolume(1000,1000,1000))
 console.log(cupVolume(13.123, 123.12, 1))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -515,15 +387,6 @@ console.log(wheresWally('Hi Wally'))
 */
 
 
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -561,16 +424,6 @@ console.log(tacofy('ogmmml'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -588,17 +441,6 @@ console.log(isLeapYear(2015))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -628,19 +470,6 @@ console.log(getMean([1,3,2],2,2))
 console.log(getMean([1,3,2,4],1,2))*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*function totalAmountVisible(topNum, numOfSides){
     let a= numOfSides/2
     let x=numOfSides+1
@@ -654,21 +483,6 @@ console.log(getMean([1,3,2,4],1,2))*/
 console.log(totalAmountVisible(3,6))
 console.log(totalAmountVisible(3,8))
 console.log(totalAmountVisible(1,12))*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -711,51 +525,6 @@ console.log(vampireTest(21,6))
 console.log(vampireTest(204,615))
 console.log(vampireTest(10,11))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -819,20 +588,6 @@ console.log(getTurkishNumber(80))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function convertToMixedNumeral(parm){
@@ -852,18 +607,6 @@ console.log(convertToMixedNumeral('9/18'))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
