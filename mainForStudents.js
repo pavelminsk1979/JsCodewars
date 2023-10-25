@@ -22,6 +22,43 @@
 
 
 
+
+/*
+
+function accum(s) {
+    let a= s.split('')
+    let res =[]
+    for(let i=0;i<a.length;i++){
+
+       let simvol= a[i].toLowerCase()
+        let simvolUp=a[i].toUpperCase()
+        let bb= i+1
+        let uu= Array(bb).fill(simvol)
+       res.push(uu.fill(simvolUp,0,1).join(''))
+    }
+    return res.join('-')
+}
+
+console.log(accum("ZpglnRxqenU"))
+console.log(accum("cwAt"))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function sortByArea(array) {
     let a = []
