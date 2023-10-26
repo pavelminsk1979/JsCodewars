@@ -23,6 +23,38 @@
 
 
 
+
+/*
+
+function sortArray(a1, a2) {
+let a= a1.map(e=>e.slice(0,1))
+    let res = []
+    for(let i=0;i<a.length;i++){
+       res.push( a2.find(e=>e[0]===a[i]))
+    }
+    return res
+}
+
+console.log(sortArray(['giraffe', 'orangutan', 'impala', 'elephant', 'rhino'],['rattlesnake', 'eagle', 'geko', 'iguana', 'octopus']))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function accum(s) {
