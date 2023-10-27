@@ -24,6 +24,42 @@
 
 
 
+
+/*
+
+function killer(suspectInfo, dead) {
+   for(let key in suspectInfo){
+       let a= suspectInfo[key]
+       let res = []
+       for(let i=0;i<dead.length;i++){
+         res.push(  a.find(e=>e===dead[i]))
+       }
+       if( dead.sort().join('')=== res.sort().join('')){
+           return key
+       }
+   }
+}
+
+console.log(killer({'James': ['Jacob', 'Bill', 'Lucas'], 'Johnny': ['David', 'Kyle', 'Lucas'], 'Peter': ['Lucy', 'Kyle']}, ['Lucas', 'Bill']))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function sortArray(a1, a2) {
