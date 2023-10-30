@@ -1,10 +1,14 @@
 
 
 
+function alternateCase(s) {
+
+   return  s.split('').map(e=>e===e.toUpperCase()?e.toLowerCase():e.toUpperCase()).join('')
+
+}
 
 
-
-
+console.log(alternateCase('Hello Word'))
 
 
 
