@@ -1,6 +1,56 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function secondSymbol(s, symbol) {
+   let a = s.indexOf(symbol)
+    if(a===-1){return a}else {
+        return s.indexOf(symbol,a+1)
+    }
+}
+
+console.log(secondSymbol('Hello world!!!', 'o'))
+console.log(secondSymbol('Hello world!!!', 'A'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+
 function alternateCase(s) {
 
    return  s.split('').map(e=>e===e.toUpperCase()?e.toLowerCase():e.toUpperCase()).join('')
@@ -13,6 +63,7 @@ console.log(alternateCase('Hello Word'))
 
 
 
+*/
 
 
 
