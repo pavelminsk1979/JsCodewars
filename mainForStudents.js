@@ -1,10 +1,45 @@
 
 
+const sumSquareEvenRootOdd = ns => {
+let a =[]
+    for (let i=0;i<ns.length;i++){
+        if(ns[i]%2===0){
+            a.push(ns[i]*ns[i])
+        }else { a.push(Math.sqrt(ns[i]))}
+    }
+    let res = a.reduce((ac,el)=>ac+el).toFixed(2)
+    return +res
+};
+
+console.log(sumSquareEvenRootOdd([4,5,7,8,1,2,3,0]))
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 var number=function(array){
   let res = []
     for (let i=0;i<array.length;i++){
@@ -16,6 +51,7 @@ var number=function(array){
 
 console.log(number(["a", "b", "c"]))
 console.log(number([]))
+*/
 
 
 
