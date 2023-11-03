@@ -1,5 +1,35 @@
 
 
+
+
+function maxProduct(a) {
+let z = a.reduce((acc,el)=>acc>el?acc:el)
+    let index= a.indexOf(z)
+     a.splice(index,1)
+    let nn= a.reduce((acc,el)=>acc>el?acc:el)
+    return z*nn
+}
+
+console.log(maxProduct([56, 335, 195, 443, 6, 494, 252]))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 const sumSquareEvenRootOdd = ns => {
 let a =[]
     for (let i=0;i<ns.length;i++){
@@ -15,6 +45,7 @@ console.log(sumSquareEvenRootOdd([4,5,7,8,1,2,3,0]))
 
 
 
+*/
 
 
 
