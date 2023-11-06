@@ -2,6 +2,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function uniteUnique(...arg) {
+    let res = []
+    for(let i=0;i<arg.length;i++){
+        let x = arg[i]
+        for(let j=0;j<x.length;j++){
+
+            if(!res.includes(x[j])) {
+                res.push(x[j])
+            }
+        }
+    }
+    return res
+}
+
+
+
+console.log(uniteUnique([1, 3, 2], [5, 2, 1, 4], [2, 1]))
+console.log(uniteUnique([4, 3, 2, 2]))
+console.log(uniteUnique([],[]))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function maxProduct(a) {
 let z = a.reduce((acc,el)=>acc>el?acc:el)
     let index= a.indexOf(z)
@@ -11,6 +70,7 @@ let z = a.reduce((acc,el)=>acc>el?acc:el)
 }
 
 console.log(maxProduct([56, 335, 195, 443, 6, 494, 252]))
+*/
 
 
 
