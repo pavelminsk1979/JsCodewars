@@ -21,6 +21,58 @@
 
 
 
+/*
+
+
+var isEven = function (n) { //if n is even return true, otherwise, return false
+  let a = String(n).split('').reverse()
+    if( a[0]==='0'||a[0]==='2'||a[0]==='4'||a[0]==='6'||a[0]==='8'){return true} else {return false}
+}
+
+console.log(isEven(24))
+console.log(isEven(3))
+
+
+
+
+function checkRoot(string){
+
+let z= string.split(',').map(e=>+e)
+    let res=[]
+    let p=1
+    for(let i=0;i<z.length;i++){
+        if(z[i]+1===z[i+1]){res.push(true);} else{res.push(false)}
+        p=p*z[i]
+    }
+    res.pop()
+
+    let hh= z.includes(NaN)
+
+
+   let bb=  Math.sqrt(p+1)
+
+    if( res.every(e=>e)){return String(p+1).concat(', ').concat(String(bb))} else {return 'not consecutive' }
+    if(hh){return 'incorrect input'}
+}
+
+console.log(checkRoot('4,5,6,7'))
+console.log(checkRoot("0,5,2,3"))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
