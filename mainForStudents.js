@@ -18,6 +18,43 @@
 
 
 
+
+
+
+
+
+
+/*
+
+function calculate(string) {
+    let a= string.split(' ')
+    let res=[]
+    for(let i=0;i<a.length;i++){
+        if(!isNaN(Number(a[i]))){
+            res.push(a[i])
+        }
+    }
+    if(string.split(' ').includes('loses')){
+        return +res[0]-(+res[1])
+    }else {return +res[0]+(+res[1])}
+}
+
+
+console.log(calculate("Panda has 48 apples and loses 4"))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
 /*
 
 function friend(friends){
