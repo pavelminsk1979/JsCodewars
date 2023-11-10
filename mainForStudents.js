@@ -24,6 +24,49 @@
 
 
 
+
+/*
+
+
+
+function closest(arr){
+    // return null if it is not possible to return 1 unique closest value
+
+
+    let a = arr.filter(e=>e===0)
+    if(a.length){return a[0]}
+    else {
+        let b = arr.filter(e=>e>0)
+        let res1= b.sort((a,b)=>a-b)[0]
+
+
+        let res2= arr.filter(e=>e<0).sort((a,b)=>a-b).reverse()[0]
+
+        if(res2===undefined){return res1}
+        if(res1===undefined){return res2}
+
+        if(res1===Math.abs(res2)){return null}
+        if( res1<Math.abs(res2)){return res1}else {return res2}
+
+    }
+}
+
+
+console.log(closest([10, 3, 9, 1]))
+console.log(closest([10, 3, 9, 3, -3,-10, -8]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
 /*
 
 function calculate(string) {
