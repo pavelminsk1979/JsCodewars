@@ -20,6 +20,68 @@
 
 
 
+/*
+
+function arrayMash (array1, array2) {
+    let res = []
+    for (let i=0;i<array1.length;i++){
+        res.push(array1[i])
+        res.push(array2[i])
+    }
+    return res
+}
+
+
+console.log(arrayMash([1, 2, 3], ['a', 'b', 'c']))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function sortIt(list, n) {
+    let a=  list.split(', ')
+    let object = {}
+    for(let i=0;i<a.length;i++){
+        let bb= a[i].toLowerCase()[n-1]
+        let ss= a[i]
+object[bb]=ss
+
+    }
+
+    return a.map(e=>e[n-1]).sort().map(e=>object[e]).join(', ')
+}
+
+console.log(sortIt('bill, bell, ball, bull', 2))
+console.log(sortIt('cat, dog, eel, bee', 3))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
