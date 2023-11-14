@@ -20,6 +20,60 @@
 
 
 
+
+
+
+/*
+
+
+function sexy_prime(x, y){
+
+    if(x===1||y===1){return false}else {
+        let hhh=[]
+        for (let i=2;i<x/2;i++){
+            if(x%[i]===0){hhh.push(true)}else {hhh.push(false)}
+        }
+        let xxx= hhh.every(e=>!e)
+
+        let jjj=[]
+        for (let i=2;i<y/2;i++){
+            if(y%[i]===0){hhh.push(true)}else {hhh.push(false)}
+        }
+        let yyy= hhh.every(e=>!e)
+
+        if(xxx&&yyy){
+            let res
+            if(x>y){
+                res =x-y
+            } else {
+                res = y-x
+
+            } if(res===6){return true}else {return false}
+        }else {return false}
+    }
+
+}
+
+console.log(sexy_prime(24, 11))
+console.log(sexy_prime(5, 11))
+console.log(sexy_prime( 11,5))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function arrayMash (array1, array2) {
