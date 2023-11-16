@@ -4,12 +4,64 @@
 
 
 
+/*
+
+function findScreenHeight(width, ratio) {
+
+    let a = ratio.split(':')
+    let res = width*(Number(a[1]))/(Number(a[0]))
+    return String(width)+'x'+String(res)
+}
+
+
+console.log(findScreenHeight(1024,"4:3"))
+
+*/
 
 
 
 
 
 
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function checkConcatenatedSum(x, y) {
+    if(x>0){let a= String(x).split('')
+        let res=0
+        for(let i=0;i<a.length;i++){
+            let num= a[i]
+            res =res+ Number(num.repeat(y))
+
+        }
+        if(res===x){return true}else {return false}}else {
+        let nn= Math.abs(x)
+        let a= String(nn).split('')
+        let res=0
+        for(let i=0;i<a.length;i++){
+            let num= a[i]
+            res =res+ Number(num.repeat(y))
+
+        }
+        if(-res===x){return true}else {return false}
+    }
+
+}
+
+console.log(checkConcatenatedSum(2997,3))
+console.log(checkConcatenatedSum(-2997,3))
+
+*/
 
 
 
