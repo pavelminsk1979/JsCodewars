@@ -4,6 +4,40 @@
 
 
 
+
+function reOrdering(text){
+   let a = text.split(' ')
+    let word
+    for (let i=0;i<a.length;i++){
+        if( a[i][0]===a[i][0].toUpperCase()){
+           word=a[i]
+        }
+    }
+    let n= a.filter(e=>e!==word)
+     n.unshift(word)
+    return n.join(' ')
+}
+
+console.log(reOrdering('wario LoBan hello'))
+console.log(reOrdering('ming Yao'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function findScreenHeight(width, ratio) {
