@@ -5,6 +5,55 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function mainDiagonalProduct(mat){
+   let a=[]
+    for(let i=0;i<mat.length;i++){
+        a.push( mat[i][i])
+    }
+return a.reduce((ac,el)=>ac*el)
+}
+
+console.log(mainDiagonalProduct([[1,0],[0,1]]))
+console.log(mainDiagonalProduct([[1,2,3],[4,5,6],[7,8,9]]))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 function reOrdering(text){
    let a = text.split(' ')
     let word
@@ -20,6 +69,7 @@ function reOrdering(text){
 
 console.log(reOrdering('wario LoBan hello'))
 console.log(reOrdering('ming Yao'))
+*/
 
 
 
