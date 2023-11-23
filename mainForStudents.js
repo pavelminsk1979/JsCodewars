@@ -1,13 +1,34 @@
 
 
+/*
 
 
 
+function numbersWithDigitInside(x, d) {
+
+    if(x<d||x===0){return [0,0,0]}
+    if(x<10&&d===0){return [0,0,0]}
+    let arr=[]
+
+    for (let i=1 ; i<=x;i++){
+
+       if(String(i).includes(String(d))){
+           arr.push(i)
+       }
+    }
+    let one= arr.length
+    let sum= arr.reduce((acc,el)=>acc+el)
+    let mult =  arr.reduce((acc,el)=>acc*el)
+    return [one,sum, mult]
+
+}
 
 
+console.log(numbersWithDigitInside(1,0))
+console.log(numbersWithDigitInside(11,1))
+console.log(numbersWithDigitInside(44,4))
 
-
-
+*/
 
 
 
