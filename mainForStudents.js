@@ -1,5 +1,71 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function nbYear(p0, percent, aug, p) {
+let procent = percent/100
+let res = 0
+   let num =p0
+    for (let i=0;i<p;i++){
+        let z=Math.floor(num+num*procent+aug)
+
+        if( num<p){
+           res=res +1
+            num=z
+        }else{
+            break
+        }
+    }
+    return res
+}
+
+console.log(nbYear(1500, 5, 100, 5000))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
