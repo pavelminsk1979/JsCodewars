@@ -29,6 +29,44 @@
 
 /*
 
+function exampleSort(arr,exampleArr) {
+    let obj = {}
+    for (let i = 0; i < arr.length; i++) {
+        let key = arr[i]
+        obj[key] = arr.filter(el=>el===arr[i])
+
+    }
+    let res = []
+    for (let j=0;j<exampleArr.length;j++){
+        if(obj[exampleArr[j]]){
+            res=res.concat(obj[exampleArr[j]])
+        }
+
+    }
+    return res
+}
+
+console.log(exampleSort([1,2,3,3,3,4,5],[2,3,4,1,5]))
+console.log(exampleSort([1,2,3,3,3,5],[2,3,4,1,5]))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function nbYear(p0, percent, aug, p) {
 let procent = percent/100
 let res = 0
