@@ -29,6 +29,62 @@
 
 /*
 
+
+function sortGrades(lst){
+ let res=[]
+    let listZ=lst
+    for(let i=0;i<listZ.length;i++){
+
+        let vb= listZ.indexOf('VB')
+        if(vb>=0){
+            res.push('VB')
+            listZ.splice(vb,1)
+
+        }
+        let vb1= listZ.indexOf('VB')
+        if(vb1>=0){
+            res.push('VB')
+            listZ.splice(vb,1)
+
+        }
+        let o= listZ.indexOf('V0')
+        if(o>=0){
+            res.push('V0')
+            listZ.splice(o,1)
+        }
+        let oo= listZ.indexOf('V0+')
+        if(oo>=0){
+            res.push('V0+')
+            listZ.splice(oo,1)
+        }
+        let vvv= listZ.map(e=>+e.slice(1)).sort((a,b)=>a-b).map(e=>'V'+String(e))
+
+         res=res.concat(vvv)
+break
+
+    }
+return res
+}
+
+
+console.log(sortGrades(["V0+", "V0", "V16", "V2", "VB", "V6"]))
+console.log(sortGrades(["VB","VB"]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function exampleSort(arr,exampleArr) {
     let obj = {}
     for (let i = 0; i < arr.length; i++) {
