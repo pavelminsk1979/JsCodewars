@@ -21,6 +21,86 @@
 
 
 
+/*
+
+function sortByHeight(a) {
+
+    let x= a.filter(e=>e!==-1)
+
+let nnn= x.sort((a,b)=>a-b)
+    let res=[]
+    for(let i=0;i<a.length;i++){
+        if(a[i]===-1){
+            res.push(a[i])
+        }else{
+            res.push(nnn[0])
+            nnn.shift()
+        }
+    }
+    return res
+
+}
+
+console.log(sortByHeight([-1, 150, 190, 170, -1, -1, 160, 180]))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function sortByValueAndIndex(array) {
+
+    let res = []
+    for (let i=0;i<array.length;i++){
+        res.push(array[i]*(i+1))
+    }
+    for(let j=0;j<res.length;j++)
+    {for (let b=0;b<res.length;b++){
+        if(res[b]>res[b+1]){
+            let vari=res[b]
+            res[b]=res[b+1]
+            res[b+1]=vari
+        }
+    }}
+    return res
+}
+
+console.log(sortByValueAndIndex([ 23, 2, 3, 4, 5 ]))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
