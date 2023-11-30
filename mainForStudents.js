@@ -21,6 +21,49 @@
 
 
 
+
+
+
+
+/*
+
+function noonerize(numbers) {
+    if (numbers.length>0&&typeof numbers[0]==='number'&&typeof numbers[1]==='number'){
+        let oneArr= String(numbers[0]).split('')
+        let one = oneArr[0]
+        let twoArr= String(numbers[1]).split('')
+        let two = twoArr[0]
+
+        let  resOne= oneArr.fill(two,0,1)
+        let resTwo= twoArr.fill(one,0,1)
+        if(+resOne.join('')>+resTwo.join('')){
+
+            return +resOne.join('')-(+resTwo.join(''))
+        }else {return +resTwo.join('')-(+resOne.join(''))}
+    }else {return "invalid array"}
+
+
+}
+
+
+console.log(noonerize([357, 579]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function sortByHeight(a) {
