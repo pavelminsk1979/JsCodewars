@@ -25,6 +25,98 @@
 
 
 
+
+
+
+
+
+/*
+
+function sortList (sortBy, list) {
+    return list.sort((x,y)=>x[sortBy]-y[sortBy]).reverse()
+}
+
+console.log(sortList('a',[
+    {"a": 1, "b": 3},
+    {"a": 3, "b": 2},
+    {"a": 2, "b": 40},
+    {"a": 4, "b": 12}
+]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function sectSort(arr,one,two) {
+    let arr1=[...arr]
+    let a =  arr1.splice(one,two).sort()
+   let start = arr.slice(0,one)
+    let finish = arr.slice(one+two)
+    return start.concat(a,finish)
+}
+
+console.log( sectSort([9, 7, 4, 2, 5, 3, 1, 8, 6], 2, 5))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function noonerize(numbers) {
