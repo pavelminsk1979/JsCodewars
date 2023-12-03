@@ -32,6 +32,45 @@
 
 /*
 
+function min(arr, toReturn) {
+    let copyArr=[...arr]
+    let a=copyArr.sort((x,y)=>x-y)[0]
+
+    if(toReturn==='value'){
+        return a
+    }
+    if(toReturn==='index'){
+        return  arr.indexOf(a)
+    }
+
+}
+
+console.log( min([4,2,31,1,5], 'value'))
+console.log( min([4,2,1,4,5], 'index'))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function sortList (sortBy, list) {
     return list.sort((x,y)=>x[sortBy]-y[sortBy]).reverse()
 }
