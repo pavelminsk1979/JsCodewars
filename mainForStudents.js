@@ -30,6 +30,45 @@
 
 
 
+
+/*
+
+function repeats(arr){
+let a= arr.sort((a,b)=>a-b)
+    let res=[]
+    for (let i=0;i<a.length;i++){
+        if(a[i]===a[i+1]){
+            res.push(a[i])
+        }
+    }
+    for(let j=0;j<res.length;j++){
+        a=a.filter(e=>e!==res[j])
+    }
+return a.reduce((acc,el)=>acc+el)
+};
+
+console.log(repeats([4,5,7,5,4,8]))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function min(arr, toReturn) {
