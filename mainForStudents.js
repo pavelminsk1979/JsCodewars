@@ -27,6 +27,61 @@
 
 
 
+/*
+
+function scf(array){
+
+    let arr= array.sort((a,b)=>a-b)
+    let num= arr[0]
+  for(let i=2; i<=num;i++){
+
+
+      let z =[]
+for(let j=0;j<array.length;j++){
+
+    if(array[j]%i===0) {
+        z.push(true)
+    }else{z.push(false)}
+
+}
+      if(z.every(e=>e)) {
+          return i
+      }
+
+
+
+  }
+  return 1
+}
+
+
+console.log(scf([21, 45, 51, 27, 33]))
+console.log(scf([133, 147, 427, 266]))
+console.log(scf([3, 7,5]))
+console.log(scf([]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
