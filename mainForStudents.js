@@ -27,6 +27,84 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function encode(str)
+{
+    let string= str.split('')
+    let res = []
+    for(let i=0;i<string.length;i++){
+        let z = string[i]
+        if( z==='A'||z==='a'||z==='E'||z==='e'||z==='Y'||z==='y'||z==='O'||z==='o'||z==='U'||z==='u'||z==='I'||z==='i'||z==='G'||z==='g'||z==='D'||z==='d'||z==='R'||z==='r'||z==='P'||z==='p'||z==='L'||z==='l'||z==='K'||z==='k'){
+if(z==='A'){res.push('G')}
+    if(z==='a'){res.push('g')}
+        if(z==='Y'){res.push('R')}
+            if(z==='E'){res.push('D')}
+                if(z==='e'){res.push('d')}
+                    if(z==='y'){res.push('r')}
+                        if(z==='O'){res.push('P')}
+                            if(z==='o'){res.push('p')}
+                                if(z==='U'){res.push('L')}
+                                    if(z==='u'){res.push('l')}
+                                        if(z==='I'){res.push('K')}
+                                            if(z==='i'){res.push('k')}
+            if(z==='G'){res.push('A')}
+            if(z==='g'){res.push('a')}
+            if(z==='R'){res.push('Y')}
+            if(z==='D'){res.push('E')}
+            if(z==='d'){res.push('e')}
+            if(z==='r'){res.push('y')}
+            if(z==='P'){res.push('O')}
+            if(z==='p'){res.push('o')}
+            if(z==='L'){res.push('U')}
+            if(z==='l'){res.push('u')}
+            if(z==='K'){res.push('I')}
+            if(z==='k'){res.push('i')}
+}
+        else {res.push(z)}
+    }
+    return res.join('')
+}
+
+
+console.log(encode("Ala has a cat"))
+console.log(encode("Gug hgs g cgt"))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function scf(array){
