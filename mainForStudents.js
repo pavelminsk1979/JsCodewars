@@ -38,6 +38,42 @@
 
 
 
+/*
+
+
+function reverseMiddle(array) {
+    let z = array.length
+    if( z%2===0){
+        return [array[z/2],array[z/2-1]]
+    }else {
+        let v=Math.ceil(z/2)
+        return [array[v],array[v-1],array[v-2]] }
+}
+
+console.log(reverseMiddle([1, 2, 3, 4, 5, 6]))
+console.log(reverseMiddle([1, 2, 3, 4, 5, 6, 7]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
