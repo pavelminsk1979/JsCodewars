@@ -28,6 +28,49 @@
 
 
 
+/*
+
+function largest(n, array) {
+
+   for(let i=0;i<array.length;i++){
+       for (let j=0;j<array.length;j++)
+           if(array[j]>array[j+1]){
+               let x = array[j]
+               array[j]=array[j+1]
+               array[j+1]=x
+
+           }
+   }
+   return array.reverse().slice(0,n).reverse()
+}
+
+console.log(largest(2, [-3, -2, -1, 0, -9, -8, -7, -6, -4, -5]))
+console.log(largest(3, [5, 1, 5, 2, 3, 1, 2, 3, 5]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
