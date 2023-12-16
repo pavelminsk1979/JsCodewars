@@ -28,6 +28,97 @@
 
 
 
+
+
+/*
+
+function digitsAverage(input) {
+
+
+ if(input>=0&&input<=9) {return input}else {
+
+     let str = String(input)
+     let arr=str.split('').map(e=>Number(e))
+let newArr=[...arr]
+for (let j=0;j<arr.length-1;j++){
+
+        let res =[]
+        for (let i=0;i<newArr.length-1;i++){
+            res.push(Math.ceil((newArr[i]+newArr[i+1])/2))
+        }
+        let bb = res.join('')
+
+        if(bb>=0&&bb<=9){return Number(bb)}else {
+            newArr=[...res]}
+
+}
+ }
+
+}
+
+
+console.log(digitsAverage(345))
+console.log(digitsAverage(89))
+console.log(digitsAverage(8965))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function daysUntilChristmas(days) {
+     const currentDate = new Date(days);
+
+    const currentYear = currentDate.getFullYear();
+
+    const christmasDate = new Date(currentYear, 11, 25);
+
+
+    if (currentDate < christmasDate) {
+            christmasDate.setFullYear(currentYear + 1);
+
+    }
+
+
+    const timeDiff = christmasDate.getTime() - currentDate.getTime();
+    const daysDiff = Math.ceil(timeDiff / (1000 * 60 * 60 * 24));
+
+    return daysDiff;
+}
+
+console.log(daysUntilChristmas(new Date(2016,11,8)))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function largest(n, array) {
