@@ -35,6 +35,43 @@
 
 
 
+
+
+
+/*
+
+function squareDigits(num){
+    let a =  String(num).split('')
+    let res =[]
+    for(let i=0;i<a.length;i++){
+        res.push(String(Number(a[i])*Number(a[i])))
+    }
+    return Number(res.reduce((ac,el)=>ac+el))
+}
+
+
+console.log(squareDigits(3212))
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function solution(pairs){
