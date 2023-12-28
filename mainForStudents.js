@@ -38,6 +38,55 @@
 
 
 
+
+
+/*
+
+function remove (string) {
+
+  let a= string.split(' ')
+    let reeees=[]
+for (let i=0;i<a.length;i++){
+    let aaa= a[i].split('').reverse()
+    let copy=[...aaa]
+
+    for(let j=0;j<aaa.length;j++){
+        if( aaa[j]==='!'){copy.shift()}else {break}
+    }
+
+    let res= copy.reverse().join('')
+    reeees.push(res)
+}
+return reeees.join(' ')
+}
+
+console.log(remove("!Hi!"))
+console.log(remove("Hi! Hi!"))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function squareDigits(num){
