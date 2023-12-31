@@ -28,6 +28,49 @@
 
 
 
+/*
+
+function findMissingNumbers(arr){
+let start= arr[0]
+
+    let finish= arr[arr.length-1]
+    let amount = finish-start
+    let res = []
+    for(let i=0;i<=amount;i++){
+        res.push(start + i)
+    }
+   for(let i =0 ;i<arr.length;i++){
+        res=res.filter(e=>e!==arr[i])
+   }
+   return res
+}
+
+
+console.log(findMissingNumbers([-3,-2,1,4]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
