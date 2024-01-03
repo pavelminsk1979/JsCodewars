@@ -27,6 +27,125 @@
 
 
 
+/*
+
+function isTriangle(a,b,c)
+{
+   if(a<b+c&&b<a+c&&c<a+b){return true}else {return false}
+}
+
+console.log(isTriangle(4,2,3))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function cantBeatSoJoin(numbers) {
+let arr= numbers.sort((a,b)=>(a.length>0?a.reduce((acc,el)=>acc+el):[])-(b.length>0?b.reduce((acc,el)=>acc+el):[]))
+return arr.reverse().flat()
+}
+
+console.log(cantBeatSoJoin([[1, 2], [3, 4], [5, 6], [7, 8], [9]]))*/
+
+/*function cantBeatSoJoin(numbers) {
+let arr= numbers.map(e=>e.length>0?e.reduce((ac,el)=>ac+el):[])
+
+    let obj={}
+
+    for(let i=0;i<arr.length;i++){
+
+        obj[arr[i]]=numbers[i]
+    }
+   let sortKeys= arr.sort((a,b)=>a-b).reverse()
+
+    let resArr=[]
+    for (let j =0;j<sortKeys.length;j++){
+        resArr.push( obj[sortKeys[j]])
+    }
+    return resArr.flat(Infinity)
+}
+
+console.log(cantBeatSoJoin([[1, 0, 1, 0, 1, 0], [0, 1, 0, 0, 1, 0, 0, 1], [0], []]))*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function getDivisorsCnt(n){
+    let count=1
+
+  for (let i=1;i<=n/2;i++){
+      if( n%i===0){count++}
+  }
+  return count
+}
+
+console.log(getDivisorsCnt(10))
+console.log(getDivisorsCnt(54))
+console.log(getDivisorsCnt(1))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
