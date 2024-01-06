@@ -1,9 +1,20 @@
 
 
+function removeChars(s) {
+let arr=s.split('')
+
+    let right=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z','A','B','C','E','D','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z',' ']
+    let res = []
+    for (let i=0;i<arr.length;i++){
+        if(right.find(e=>e===arr[i])){
+            res.push(arr[i])
+        }
+    }
+    return res.join('')
+}
 
 
-
-
+console.log(removeChars("that's a pie&ce o_f p#ie!"))
 
 
 
