@@ -1,5 +1,94 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function reduce(fraction) {
+    let first=fraction[0]
+    let second=fraction[1]
+    let arrFirst=[]
+    for(let i=1;i<=first;i++){
+        if(first%i===0){
+            arrFirst.push(i)
+        }
+    }
+    let arrSecond=[]
+    for(let i=1;i<=second;i++){
+        if(second%i===0){
+            arrSecond.push(i)
+        }
+    }
+
+  let reversAF=arrFirst.reverse()
+  let reversAS=arrSecond.reverse()
+let arNum=[]
+for(let i=0;i<reversAF.length;i++){
+    for(let j=0;j<reversAS.length;j++){
+        if(reversAF[i]===reversAS[j]){
+arNum.push(reversAS[j])
+        }
+    }
+}
+let num=arNum[0]
+    let one = fraction[0]/num
+    let two = fraction[1]/num
+    return [one,two]
+}
+
+console.log(reduce([45, 120]))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function removeChars(s) {
 let arr=s.split('')
 
@@ -18,6 +107,7 @@ console.log(removeChars("that's a pie&ce o_f p#ie!"))
 
 
 
+*/
 
 
 
