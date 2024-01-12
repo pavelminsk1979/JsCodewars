@@ -26,6 +26,51 @@
 
 
 
+
+/*
+
+function averages(numbers) {
+let res = []
+
+    if(numbers===null||numbers===undefined){
+        return res
+    }
+
+    for (let i=0;i<numbers.length;i++){
+        if(numbers[i+1]!==undefined){
+            let a = numbers[i]+numbers[i+1]
+
+            let b = a/2
+            res.push(b)
+        }
+
+    }
+    return res
+}
+
+
+console.log(averages([1, 3, 5, 1, -10]))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function reduce(fraction) {
