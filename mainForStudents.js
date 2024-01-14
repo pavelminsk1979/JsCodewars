@@ -27,6 +27,58 @@
 
 
 
+
+
+
+
+/*
+
+function candies(kids){
+   if(kids.length===0||kids.length===1){
+       return -1
+   } else {
+       let bigNum = kids.reduce((acc,el)=>acc>el?acc:el)
+       let arr=[]
+      for (let i=0;i<kids.length;i++){
+          arr.push(bigNum-kids[i])
+      }
+      return arr.reduce((acc,el)=>acc+el)
+   }
+}
+
+
+console.log(candies([5, 8, 6, 4]))
+/!*console.log(candies([5]))*!/
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function averages(numbers) {
@@ -54,21 +106,6 @@ console.log(averages([1, 3, 5, 1, -10]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -112,25 +149,6 @@ console.log(reduce([45, 120]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -155,24 +173,6 @@ console.log(removeChars("that's a pie&ce o_f p#ie!"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function isTriangle(a,b,c)
@@ -185,22 +185,6 @@ console.log(isTriangle(4,2,3))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*function cantBeatSoJoin(numbers) {
@@ -231,29 +215,6 @@ let arr= numbers.map(e=>e.length>0?e.reduce((ac,el)=>ac+el):[])
 console.log(cantBeatSoJoin([[1, 0, 1, 0, 1, 0], [0, 1, 0, 0, 1, 0, 0, 1], [0], []]))*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -273,24 +234,6 @@ console.log(getDivisorsCnt(1))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -315,37 +258,6 @@ console.log(findMissingNumbers([-3,-2,1,4]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -374,27 +286,6 @@ console.log(remove("Hi! Hi!"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function squareDigits(num){
@@ -415,20 +306,6 @@ console.log(squareDigits(3212))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function solution(pairs){
@@ -447,22 +324,6 @@ console.log(solution({'b': 1, 'c': 2, 'e': 3}))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -493,26 +354,6 @@ console.log(quicksum("MID CENTRAL"))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -550,18 +391,6 @@ console.log(digitsAverage(8965))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function daysUntilChristmas(days) {
@@ -587,23 +416,6 @@ function daysUntilChristmas(days) {
 console.log(daysUntilChristmas(new Date(2016,11,8)))*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function largest(n, array) {
@@ -627,36 +439,6 @@ console.log(largest(3, [5, 1, 5, 2, 3, 1, 2, 3, 5]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -674,25 +456,6 @@ console.log(reverseMiddle([1, 2, 3, 4, 5, 6, 7]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -743,23 +506,6 @@ console.log(encode("Gug hgs g cgt"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function scf(array){
@@ -797,28 +543,6 @@ console.log(scf([]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function repeats(arr){
@@ -837,24 +561,6 @@ return a.reduce((acc,el)=>acc+el)
 
 console.log(repeats([4,5,7,5,4,8]))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -878,24 +584,6 @@ console.log( min([4,2,1,4,5], 'index'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sortList (sortBy, list) {
@@ -913,19 +601,6 @@ console.log(sortList('a',[
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 function sectSort(arr,one,two) {
     let arr1=[...arr]
@@ -936,51 +611,6 @@ function sectSort(arr,one,two) {
 }
 
 console.log( sectSort([9, 7, 4, 2, 5, 3, 1, 8, 6], 2, 5))*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1010,18 +640,6 @@ console.log(noonerize([357, 579]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sortByHeight(a) {
@@ -1047,25 +665,6 @@ console.log(sortByHeight([-1, 150, 190, 170, -1, -1, 160, 180]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sortByValueAndIndex(array) {
@@ -1087,25 +686,6 @@ function sortByValueAndIndex(array) {
 
 console.log(sortByValueAndIndex([ 23, 2, 3, 4, 5 ]))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1155,15 +735,6 @@ console.log(sortGrades(["VB","VB"]))
 */
 
 
-
-
-
-
-
-
-
-
-
 /*
 
 function exampleSort(arr,exampleArr) {
@@ -1188,20 +759,6 @@ console.log(exampleSort([1,2,3,3,3,5],[2,3,4,1,5]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function nbYear(p0, percent, aug, p) {
@@ -1224,21 +781,6 @@ let res = 0
 console.log(nbYear(1500, 5, 100, 5000))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1272,18 +814,6 @@ console.log(numbersWithDigitInside(44,4))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function mainDiagonalProduct(mat){
@@ -1297,22 +827,6 @@ return a.reduce((ac,el)=>ac*el)
 console.log(mainDiagonalProduct([[1,0],[0,1]]))
 console.log(mainDiagonalProduct([[1,2,3],[4,5,6],[7,8,9]]))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1334,22 +848,6 @@ console.log(reOrdering('ming Yao'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function findScreenHeight(width, ratio) {
@@ -1363,19 +861,6 @@ function findScreenHeight(width, ratio) {
 console.log(findScreenHeight(1024,"4:3"))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1408,17 +893,6 @@ console.log(checkConcatenatedSum(2997,3))
 console.log(checkConcatenatedSum(-2997,3))
 
 */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1460,18 +934,6 @@ console.log(sexy_prime( 11,5))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function arrayMash (array1, array2) {
@@ -1488,19 +950,6 @@ console.log(arrayMash([1, 2, 3], ['a', 'b', 'c']))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1521,22 +970,6 @@ object[bb]=ss
 console.log(sortIt('bill, bell, ball, bull', 2))
 console.log(sortIt('cat, dog, eel, bee', 3))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1573,14 +1006,6 @@ console.log(closest([10, 3, 9, 3, -3,-10, -8]))
 */
 
 
-
-
-
-
-
-
-
-
 /*
 
 function calculate(string) {
@@ -1604,14 +1029,6 @@ console.log(calculate("Panda has 48 apples and loses 4"))
 */
 
 
-
-
-
-
-
-
-
-
 /*
 
 function friend(friends){
@@ -1622,19 +1039,6 @@ function friend(friends){
 console.log(friend(["Ryan", "Jimmy", "123", "4", "Cool Man"]))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1678,20 +1082,6 @@ console.log(checkRoot("0,5,2,3"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function uniteUnique(...arg) {
@@ -1716,18 +1106,6 @@ console.log(uniteUnique([],[]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 function maxProduct(a) {
 let z = a.reduce((acc,el)=>acc>el?acc:el)
@@ -1739,21 +1117,6 @@ let z = a.reduce((acc,el)=>acc>el?acc:el)
 
 console.log(maxProduct([56, 335, 195, 443, 6, 494, 252]))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1776,28 +1139,6 @@ console.log(sumSquareEvenRootOdd([4,5,7,8,1,2,3,0]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 var number=function(array){
   let res = []
@@ -1811,19 +1152,6 @@ var number=function(array){
 console.log(number(["a", "b", "c"]))
 console.log(number([]))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1842,14 +1170,6 @@ console.log(secondSymbol('Hello world!!!', 'A'))
 */
 
 
-
-
-
-
-
-
-
-
 /*
 
 function alternateCase(s) {
@@ -1865,20 +1185,6 @@ console.log(alternateCase('Hello Word'))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1901,21 +1207,6 @@ console.log(killer({'James': ['Jacob', 'Bill', 'Lucas'], 'Johnny': ['David', 'Ky
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sortArray(a1, a2) {
@@ -1931,20 +1222,6 @@ console.log(sortArray(['giraffe', 'orangutan', 'impala', 'elephant', 'rhino'],['
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -1966,21 +1243,6 @@ function accum(s) {
 console.log(accum("ZpglnRxqenU"))
 console.log(accum("cwAt"))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
