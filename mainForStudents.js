@@ -6,6 +6,26 @@
 
 
 
+/*
+
+
+function isFlush(cards) {
+
+    let arr = []
+    for(let i=0;i<cards.length-1;i++){
+
+        if(cards[i][cards[i].length-1]===cards[i+1][cards[i+1].length-1]) {
+            arr.push(1)
+        } else {arr.push(0)}
+    }
+    return arr.every(e=>e===1)
+}
+
+console.log(isFlush([  "AS", "3S",  "9S", "KS", "4S" ]))
+console.log(isFlush([  "QD", "4D", "10D", "KD", "5D" ]))
+
+
+*/
 
 
 
@@ -13,6 +33,35 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const pr = new Promise((res)=>res('A'))
+pr.then((res)=>{
+    console.log('then',res)
+  /!* return  Promise.reject('error')*!/
+    throw new Error('error')
+})
+    .catch((err)=>{
+        console.log('catch',err)
+    })
+
+
+*/
 
 
 
