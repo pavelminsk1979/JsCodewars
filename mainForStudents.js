@@ -6,6 +6,69 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+
+function sumCubes(n){
+    let num=[]
+    for(let i=1;i<=n;i++){
+        num.push(i*i*i)
+    }
+    return num.reduce((acc,el)=>acc+el)
+}
+
+console.log(sumCubes(3))
+
+
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
