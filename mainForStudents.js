@@ -27,6 +27,117 @@
 
 
 
+/*
+
+function delay(ms){
+return new Promise((res)=>{
+    setTimeout(()=>{
+        res('111')
+    },ms)
+})
+}
+
+
+
+
+
+
+delay(2000).then((res)=>{
+    console.log(res) })
+
+
+
+
+*/
+
+
+
+
+
+
+/*
+
+
+const prom= new Promise((res,rej)=>{
+    return res('resolve-43243')
+})
+
+prom   .finally((res)=>{
+    console.log('finally1')
+})
+    .then((res)=>{
+    console.log(res)
+    return ('lkjdfslk')
+})
+    .then((res)=>{
+        console.log(res)
+    })
+    .then((res)=>{
+        console.log(2)
+        throw new Error()
+    })
+    .catch((err)=>{
+        console.log(err)
+    })
+    .then((res)=>{
+        console.log(4)
+    })
+    .finally((res)=>{
+        console.log('finally')
+    })
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function count (){
+    let a=0
+    return ()=>{
+       return  a++
+    }
+}
+
+let coutn1=count()
+let coutn2=count()
+
+console.log(coutn1())
+console.log(coutn1())
+console.log(coutn1())
+console.log(coutn2())
+console.log(coutn2())
+console.log(coutn2())
+
+
+
+
+*/
+
+
+
+
+
+
+
+
 
 
 
