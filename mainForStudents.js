@@ -26,6 +26,38 @@
 
 
 
+/*
+
+function reverseNumber(n) {
+    let a = String(n).split('')
+
+    if(n>=0){
+        return Number(a.reverse().join(''))
+    } else {
+        let res=  a.filter(e=>e!=='-').reverse().join('')
+        return -Number(res)
+    }
+}
+
+
+console.log(reverseNumber(123))
+console.log(reverseNumber(-456))
+console.log(reverseNumber(1000))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
