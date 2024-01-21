@@ -24,6 +24,32 @@
 
 
 
+/*
+
+async  function a (){
+    console.log(11)
+
+    try {
+        const x = await new Promise((res,rej)=>{rej('kjkj')})
+    }
+    catch (er){
+        console.log(er)
+    }
+    console.log(22)
+}
+a()
+console.log(116666)
+
+
+
+
+*/
+
+
+
+
+
+
 
 
 /*
@@ -49,16 +75,6 @@ console.log(reverseNumber(1000))
 */
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 
 function delay(ms){
@@ -81,10 +97,6 @@ delay(2000).then((res)=>{
 
 
 */
-
-
-
-
 
 
 /*
@@ -123,22 +135,6 @@ prom   .finally((res)=>{
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function count (){
@@ -164,17 +160,6 @@ console.log(coutn2())
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -196,20 +181,6 @@ console.log(sumCubes(3))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -234,26 +205,6 @@ console.log(isFlush([  "QD", "4D", "10D", "KD", "5D" ]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 const pr = new Promise((res)=>res('A'))
@@ -268,22 +219,6 @@ pr.then((res)=>{
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -309,29 +244,6 @@ console.log(candies([5, 8, 6, 4]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
