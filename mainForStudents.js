@@ -24,6 +24,56 @@
 
 
 
+
+
+
+
+
+
+/*
+
+
+function shorterReverseLonger(a,b){
+    let big
+    let short
+    if(a.length>b.length){
+       big=a
+        short=b
+    } else {
+        big=b
+    short=a}
+    if(a.length===b.length){
+        big=a
+        short=b
+    }
+    let newBig=big.split('').reverse().join('')
+    return  short+newBig+short
+}
+
+console.log(shorterReverseLonger("hello", "bau"))
+console.log(shorterReverseLonger("first", "abcde"))
+console.log(shorterReverseLonger("", ""))
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 async  function a (){
