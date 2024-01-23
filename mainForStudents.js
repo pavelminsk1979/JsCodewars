@@ -32,6 +32,57 @@
 
 /*
 
+function wordPattern(word) {
+ let a = word.split('').map(e=>e.toLowerCase())
+    let simbols = []
+    let result=[]
+    let z=0
+    for (let i=0;i<a.length;i++){
+        let exist = simbols.includes(a[i])
+        if(!exist){
+            simbols.push(a[i])
+            result.push(z)
+            z++
+        }else {
+            let index=simbols.indexOf(a[i])
+            result.push(index)
+        }
+
+    }
+    return result.join('.')
+
+}
+
+console.log(wordPattern('hello'))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 
 function shorterReverseLonger(a,b){
     let big
