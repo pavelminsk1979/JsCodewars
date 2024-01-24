@@ -29,6 +29,62 @@
 
 
 
+/*
+
+
+function catchSignChange(arr) {
+    let count
+    let flag
+    if(arr.length===0){count=0}
+   for (let i=0;i<arr.length;i++){
+
+       if(i===0){
+           count=0
+           if(arr[i]<0){
+               flag=-1
+           }else {
+               flag=1
+           }
+       }else {
+           if(flag===-1&&arr[i]>=0){
+               flag=1
+               count=count+1
+           }
+           if(flag===1&&arr[i]<0){
+               flag=-1
+               count=count+1
+           }
+       }
+   }
+   return count
+}
+
+console.log(catchSignChange([-47,84,-30,-11,-5,74,77]))
+console.log(catchSignChange([]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
