@@ -27,6 +27,48 @@
 
 
 
+/*
+
+function whatListAmIOn(actions){
+    let bfk=0
+    let gsn =0
+    for (let i=0;i<actions.length;i++){
+        if(actions[i][0]==='b'||actions[i][0]==='f'||actions[i][0]==='k'){
+            bfk++
+        }
+        if(actions[i][0]==='g'||actions[i][0]==='s'||actions[i][0]==='n')
+            gsn++
+    }
+    if(bfk>=gsn){return 'naughty'}  else {return 'nice'}
+
+}
+
+console.log(whatListAmIOn(["broke someone's window", "fought over a toaster", "killed a bug"]))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
