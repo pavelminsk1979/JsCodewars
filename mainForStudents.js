@@ -29,6 +29,53 @@
 
 /*
 
+
+function makeValley(arr) {
+   for (let i=0;i<arr.length;i++){
+       for(let j=0;j<arr.length;j++){
+           if(arr[j]<arr[j+1]){
+               let x = arr[j]
+                arr[j]=arr[j+1]
+               arr[j+1]=x
+           }
+       }
+   }
+   let array =arr
+    let left = []
+    let right = []
+    for (let i=0;i<array.length;i++){
+        if(i===0||i%2===0){
+            left.push(array[i])
+        }else {right.push(array[i])}
+    }
+    return left.concat(right.reverse())
+}
+
+console.log(makeValley([20, 18, 17, 13, 12, 12, 10, 9, 4, 2, 2, 1, 1]))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function whatListAmIOn(actions){
     let bfk=0
     let gsn =0
