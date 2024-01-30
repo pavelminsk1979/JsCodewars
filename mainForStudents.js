@@ -27,6 +27,45 @@
 
 
 
+
+
+/*
+
+
+function solution(start, finish) {
+let amountPolk = finish-start
+    let cel3=0
+    if(amountPolk>=3){
+        cel3=Math.floor(amountPolk/3)
+    }
+    if(amountPolk<3){return amountPolk}
+    let ostatok = amountPolk-(cel3*3)
+    return cel3+ostatok
+}
+
+
+console.log(solution(1,5))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
