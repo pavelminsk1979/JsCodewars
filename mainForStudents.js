@@ -28,6 +28,52 @@
 
 
 
+/*
+
+function maxProduct(numbers, size){
+  for(let i=0;i<numbers.length;i++){
+      for(let j=0;j<numbers.length;j++){
+          if(numbers[j]>numbers[j+1]){
+              let x =numbers[j]
+              numbers[j]=numbers[j+1]
+              numbers[j+1]=x
+          }
+      }
+  }
+  let arr =  numbers.reverse()
+    let res = []
+    for(let a =0;a<size;a++){
+        res.push(arr[a])
+    }
+    return res.reduce((acc,el)=>acc*el)
+}
+
+
+
+console.log(maxProduct([10,8,7,9], 3))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
