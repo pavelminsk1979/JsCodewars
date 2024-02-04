@@ -28,6 +28,47 @@
 
 
 
+
+/*
+
+function squareUp(n) {
+    let arr = Array(n).fill(0)
+    let res = []
+for(let i=0;i<n;i++){
+
+    let y= arr.fill(i+1,i,i+1)
+    let lll=[...y].reverse()
+      res = res.concat(lll)
+
+}
+return res
+}
+
+console.log(squareUp(4))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function maxProduct(numbers, size){
