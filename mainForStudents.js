@@ -31,6 +31,45 @@
 
 /*
 
+function maxRot(n) {
+    let workArr = String(n).split('')
+  let arr = []
+
+    for (let i=0;i<workArr.length;i++){
+       let num = workArr.splice(i,1)
+        workArr.push(num)
+        let a =[...workArr]
+        arr.push(Number(a.join('')))
+    }
+    return arr.reduce((acc,el)=>acc>el?acc:el)
+}
+
+console.log(maxRot(56789))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function squareUp(n) {
     let arr = Array(n).fill(0)
     let res = []
