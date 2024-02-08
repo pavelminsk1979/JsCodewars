@@ -1,9 +1,18 @@
 
 
 
+function productArray(numbers){
 
+   let res = []
+    for (let i=0;i<numbers.length;i++){
+        let a =[...numbers]
+         a.splice(i,1)
+        res.push(a.reduce((acc,el) => acc*el))
+    }
+    return res
+}
 
-
+console.log(productArray([3,27,4,2]))
 
 
 
