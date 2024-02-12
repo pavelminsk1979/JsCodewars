@@ -1,6 +1,39 @@
 
 
 
+
+
+
+
+
+function findShort(s){
+    return s.split(' ').map(e=>e.length).reduce((acc,el)=>acc<el?acc:el)
+}
+
+
+console.log(findShort("bitcoin take over the world maybe who knows perhaps"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function productArray(numbers){
 
    let res = []
@@ -16,6 +49,7 @@ console.log(productArray([3,27,4,2]))
 
 
 
+*/
 
 
 
