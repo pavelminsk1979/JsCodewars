@@ -6,6 +6,73 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function removeSmallest(numbers) {
+    let copy = [...numbers]
+   let a = [...copy].sort((a,b)=>a-b)
+
+    let num= a[0]
+    let index = copy.findIndex(e=>e===num)
+    copy.splice(index,1)
+    return copy
+}
+
+console.log(removeSmallest([5, 3, 2, 1, 4]))
+console.log(removeSmallest([5,1, 3, 2, 1, 4]))
+console.log(removeSmallest( [ 284, 310, 190, 78, 166, 119, 351, 177, 51, 314, 45 ]))
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function findShort(s){
     return s.split(' ').map(e=>e.length).reduce((acc,el)=>acc<el?acc:el)
 }
@@ -16,6 +83,7 @@ console.log(findShort("bitcoin take over the world maybe who knows perhaps"))
 
 
 
+*/
 
 
 
