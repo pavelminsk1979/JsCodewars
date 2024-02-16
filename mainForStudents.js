@@ -26,6 +26,58 @@
 
 
 
+/*
+
+
+
+function mnLCM(m,n) {
+    let a = []
+    for (let i=m;i<=n;i++){
+       a.push([i])
+    }
+    for (let i =2;i<Infinity;i++){
+        a.map(e=>{
+            let nn =e[0]*i
+            e.push(nn)
+        })
+        let bbb = a[0]
+        let number= bbb[bbb.length-1]
+     let vv= a.map(e=>[...e])
+
+        vv.map(e=>{
+           let ggg=e.includes(number)
+            e.length=0
+            e.push(ggg)
+        })
+
+let iii=[]
+        vv.map(e=>iii.push(e[0]))
+
+       let p= iii.every(e=>e===true)
+if(iii.every(e=>e===true)){return number}
+
+    }
+
+}
+
+console.log(mnLCM(10,15))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
