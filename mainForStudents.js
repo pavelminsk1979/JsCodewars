@@ -1,9 +1,14 @@
 
 
 
+function mnLCM(m,n) {
 
+for(let i=m;i<n;i++){
+i*(i+1)
+    }
+}
 
-
+console.log(mnLCM(1,5))//60
 
 
 
