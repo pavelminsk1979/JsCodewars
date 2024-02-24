@@ -1,17 +1,63 @@
 
 
 
-function mnLCM(m,n) {
 
-for(let i=m;i<n;i++){
-i*(i+1)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function mnLCM(m,n) {
+    if(m>n){
+        let q=m
+        m=n;
+        n=q
     }
+let x =m
+for(let i=m+1;i<=n;i++){
+    let ooo
+  if(x>i){
+     ooo=i
+  } else ooo=x
+    let ar=[]
+    for (let j=1;j<=ooo;j++){
+        if(x%j===0 && i%j===0){
+            ar.push(j)
+        }
+    }
+    let ia=ar.reverse()[0]
+
+x=(x*i)/ia
+    }
+return x
 }
 
-console.log(mnLCM(1,5))//60
+console.log(mnLCM(5,1))//60
 
 
 
+*/
 
 
 
