@@ -25,6 +25,46 @@
 
 
 
+/*
+
+
+function isAllPossibilities(x){
+   let lastNum = x.length-1
+    let isLastNum = x.includes(lastNum)
+    if(!isLastNum){return false}
+
+    for(let i=0;i<lastNum;i++){
+
+        if(!x.includes(i)){
+            return false
+        }
+
+    }
+    return true
+}
+
+
+console.log(isAllPossibilities([1,2,0,3]))
+console.log(isAllPossibilities([5,1,9,0,3,2,8,7,4,15,6,13,13,11,13,10]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
