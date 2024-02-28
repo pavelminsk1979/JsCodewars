@@ -23,6 +23,36 @@
 
 
 
+/*
+
+function reverseAndMirror(s1,s2) {
+    let  ss1=s1.split('').map(e=>e===e.toLowerCase()?e.toUpperCase():e.toLowerCase())
+    let two = ss1.reverse().join('')+ss1.reverse().join('')
+    let one = s2.split('').map(e=>e===e.toLowerCase()?e.toUpperCase():e.toLowerCase()).reverse().join('')
+    return one+'@@@'+two
+}
+
+
+console.log(reverseAndMirror("FizZ","buZZ"))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
