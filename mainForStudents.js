@@ -25,6 +25,140 @@
 
 
 
+
+
+
+
+
+
+
+/*
+
+
+function bubble(arr) {
+    let array=[]
+for(let i=0;i<arr.length;i++){
+
+    for(j=0;j<arr.length;j++){
+        if(arr[j]>arr[j+1]){
+            let zzz=arr[j]
+            arr[j]=arr[j+1]
+            arr[j+1]=zzz
+            let ppp= [...arr]
+            array.push(ppp)
+        }
+
+    }
+
+}
+return array
+}
+
+
+console.log(bubble([2,1,4,3]))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/////////////////////////////////////////////////////////
+
+////////////////////////////////////////////////////////////
+
+//////////////////////////////////////////////////////////////
+
+///////////////////////////////////////////////////////////////////
+
+
+/*
+const arr = ['1','2','3','4','5','6','7']
+function print  (a,index=0) {
+    console.log(a[index])
+    index=index+1
+    if(index<a.length){
+        print(a,index)
+        //console.log(arr[index])
+    }
+}
+print(arr)
+*/
+
+
+//////////////////////////////////////////////////
+////////////////////////////////////////////////
+///////////////////////////////////////////////
+/*for(let i=0;i<arr.length;i++){
+    console.log(arr[i])
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function factorial(num) {
+    console.log('Вызов с num =', num);
+    debugger
+    if(num===0){return 1}else {
+        return num*factorial(num-1)
+    }
+}
+
+
+console.log(factorial(5))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function naughtyOrNice(data) {
