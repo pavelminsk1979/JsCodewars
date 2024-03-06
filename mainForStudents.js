@@ -27,6 +27,82 @@
 
 
 
+/*
+
+function a (num){
+    debugger
+   if(num===0){return 1}else {
+       return num*a(num-1)
+   }
+}
+
+console.log(a(5))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function alphabet(ns) {
+    let ar =  ns.sort((a,b)=>a-b)
+    let a =ar[0]
+
+    let b= ar[1]
+
+    let ab=a*b
+  ar.shift()
+    ar.shift()
+    let indexAB=ar.indexOf(ab)
+     ar.splice(indexAB,1)
+    let c=ar[0]
+    ar.shift()
+    let cb=c*b
+    let indexCB=ar.indexOf(cb)
+    ar.splice(indexCB,1)
+    return ar[0]
+
+}
+
+
+console.log(alphabet([20,10,6,5,4,3,2,12]))
+console.log(alphabet([2,3,4,1,12,6,2,4]))
+console.log(alphabet([2,6,7,3,14,35,15,5]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
