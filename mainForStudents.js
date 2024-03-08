@@ -27,6 +27,169 @@
 
 
 
+
+
+
+
+
+/*var ownedCatAndDog = function(catYears, dogYears) {
+    let cat=0
+    let num=catYears
+
+for (let i=0;i<catYears;i++){
+    if(i===0&&num>=15){
+        num=num-15
+        cat=cat+1
+    }else{
+        if(i===1&&num>=9){
+            num=num-9
+            cat=cat+1
+        }else{
+            if(num>=4){
+                num=num-4
+                cat=cat+1
+            }else{
+                break
+            }
+        }
+    }
+}
+
+    let dog=0
+    let numDog=dogYears
+
+    for (let i=0;i<dogYears;i++){
+
+        if(i===0&&numDog>=15){
+            numDog=numDog-15
+            dog=dog+1
+        }else{
+            if(i===1&&numDog>=9){
+                numDog=numDog-9
+                dog=dog+1
+            }else{
+                if(numDog>=5){
+                    numDog=numDog-5
+                    dog=dog+1
+                }else{
+                    break
+                }
+            }
+        }
+    }
+
+return [cat,dog]
+}*/
+
+/*
+
+var ownedCatAndDog = function (catYears, dogYears) {
+    let cat = 0
+    let num = catYears
+
+    for (let i = 0; i < catYears; i++) {
+
+        if (i === 0 && num >= 15) {
+            num = num - 15
+            cat = cat + 1
+            continue
+        }
+        if (i === 0 && num < 15){break}
+
+        if (i === 1 && num >= 9) {
+            num = num - 9
+            cat = cat + 1
+            continue
+        }
+        if (i === 1 && num < 9){break}
+
+        if (i>1&&num >= 4) {
+            num = num - 4
+            cat = cat + 1
+        }
+        if(i>1&&num<4){break}
+    }
+
+    let dog = 0
+    let numDog = dogYears
+
+    for (let i = 0; i < dogYears; i++) {
+
+        if (i === 0 && numDog >= 15) {
+            numDog = numDog - 15
+            dog = dog + 1
+            continue
+        }
+        if (i === 0 && numDog < 15){break}
+        if (i === 1 && numDog >= 9) {
+            numDog = numDog - 9
+            dog = dog + 1
+            continue
+        }
+        if (i === 1 && numDog < 9){break}
+        if (i>1&&numDog >= 5) {
+            numDog = numDog - 5
+            dog = dog + 1
+        }
+        if(i>1&&numDog<5){break}
+    }
+
+    return [cat, dog]
+}
+console.log(ownedCatAndDog(99, 21))
+console.log(ownedCatAndDog(24, 24))
+
+console.log(ownedCatAndDog(56, 64))
+console.log(ownedCatAndDog(65, 14))
+console.log(ownedCatAndDog(24, 15))
+console.log(ownedCatAndDog(14, 14))
+console.log(ownedCatAndDog(15, 15))
+*/
+
+
+
+/*
+
+
+function a(x,y){
+    if(x===1){return 1}else {
+        return a(x-1,y)
+    }
+}
+
+console.log(4,12)
+
+
+*/
+
+
+/*
+
+
+
+function a(num){
+
+    for (let i=1;i<=num;i++){
+        if(i%3===0&&i%5===0){
+            console.log('FizzBuzz')
+        }
+         else if(i%5===0){
+            console.log('buzz')
+        }else if(i%3===0){
+            console.log('fizz')
+        }else {
+             console.log(i)
+        }
+    }
+
+}
+
+
+console.log(a(16))
+
+*/
+
+
 /*
 
 function a (num){
@@ -39,17 +202,6 @@ function a (num){
 console.log(a(5))
 
 */
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -83,31 +235,6 @@ console.log(alphabet([2,6,7,3,14,35,15,5]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -136,23 +263,6 @@ console.log(bubble([2,1,4,3]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /////////////////////////////////////////////////////////
@@ -186,24 +296,6 @@ print(arr)
 }*/
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -219,20 +311,6 @@ function factorial(num) {
 console.log(factorial(5))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -261,18 +339,6 @@ console.log(naughtyOrNice({"January": {"1": "Naughty", "2": "Nice", "3": "Naught
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function reverseAndMirror(s1,s2) {
@@ -287,22 +353,6 @@ console.log(reverseAndMirror("FizZ","buZZ"))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -329,21 +379,6 @@ console.log(isAllPossibilities([5,1,9,0,3,2,8,7,4,15,6,13,13,11,13,10]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -378,23 +413,6 @@ console.log(mnLCM(5,1))//60
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -435,26 +453,6 @@ console.log(mnLCM(10,15))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -478,22 +476,6 @@ console.log(removeSmallest( [ 284, 310, 190, 78, 166, 119, 351, 177, 51, 314, 45
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function findShort(s){
@@ -507,20 +489,6 @@ console.log(findShort("bitcoin take over the world maybe who knows perhaps"))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -541,26 +509,6 @@ console.log(productArray([3,27,4,2]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -584,24 +532,6 @@ console.log(maxRot(56789))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function squareUp(n) {
@@ -621,25 +551,6 @@ console.log(squareUp(4))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -669,26 +580,6 @@ console.log(maxProduct([10,8,7,9], 3))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -709,21 +600,6 @@ console.log(solution(1,5))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -755,24 +631,6 @@ console.log(makeValley([20, 18, 17, 13, 12, 12, 10, 9, 4, 2, 2, 1, 1]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function whatListAmIOn(actions){
@@ -796,28 +654,6 @@ console.log(whatListAmIOn(["broke someone's window", "fought over a toaster", "k
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 <script>
@@ -831,28 +667,6 @@ console.log(whatListAmIOn(["broke someone's window", "fought over a toaster", "k
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -892,26 +706,6 @@ console.log(catchSignChange([]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function wordPattern(word) {
@@ -938,29 +732,6 @@ function wordPattern(word) {
 console.log(wordPattern('hello'))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -993,20 +764,6 @@ console.log(shorterReverseLonger("", ""))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 async  function a (){
@@ -1027,12 +784,6 @@ console.log(116666)
 
 
 */
-
-
-
-
-
-
 
 
 /*
