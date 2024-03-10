@@ -1,11 +1,29 @@
 
 
+/*
+
+function stonePick(arr) {
+    let st2=0
+    let cob3=0
+  for(let i=0;i<arr.length;i++){
+      if(arr[i]==="Sticks"){
+          st2++
+      }
+      if(arr[i]==="Cobblestone"){
+          cob3++
+      }
+      if(arr[i]==="Wood"){
+          st2=st2+4
+      }
+  }
+
+  return st2/2>=cob3/3?Math.floor(cob3/3):Math.floor(st2/2)
+}
+
+console.log(stonePick(["Sticks", "Sticks", "Cobblestone", "Cobblestone", "Cobblestone"]))
 
 
-
-
-
-
+*/
 
 
 
