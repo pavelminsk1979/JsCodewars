@@ -1,5 +1,75 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function gimmeTheLetters(sp) {
+   let ar = sp.split('-')
+    let listLeter="abcdefghijklmnopqrstuvwxyz"
+
+    let indexOne = listLeter.indexOf(ar[0].toLowerCase())
+    let indexEnd = listLeter.indexOf(ar[1].toLowerCase())
+
+
+    if(ar[0]===ar[0].toLowerCase()){
+        return listLeter.slice(indexOne,indexEnd+1)
+    } else {
+        const BigLiter =  listLeter.slice(indexOne,indexEnd+1)
+        return BigLiter.toUpperCase()
+    }
+}
+console.log(gimmeTheLetters('A-N'))
+console.log(gimmeTheLetters('a-b'))
+console.log(gimmeTheLetters('a-n'))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function stonePick(arr) {
