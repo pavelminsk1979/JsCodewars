@@ -5,8 +5,59 @@
 
 
 
+/*
+
+function a (x,y){
+    if(x===y){
+        return [x+1]
+    }else {
+        //return 1+a(x,y-1)
+        let list = a(x,y-1)
+         list.push(y-1)
+        return list
+
+    }
+}
 
 
+console.log(a(10,18))
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function pagesNumberingWithInk(current, numberOfDigits) {
+
+    let length=0
+    let oneMoreTime=numberOfDigits
+    for(let i=0;i<numberOfDigits;i++){
+        let num=current+i
+        length=String(num).length
+        if(oneMoreTime>length){
+            oneMoreTime=oneMoreTime-length
+            continue
+        }
+        if(oneMoreTime===length) {return num}
+        if(oneMoreTime<length) {return num-1}
+    }
+
+
+}
+
+//console.log(pagesNumberingWithInk(1,5))
+console.log(pagesNumberingWithInk(21,5))
+
+*/
 
 
 
