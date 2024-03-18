@@ -5,10 +5,77 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
+function bulbMaze(maze){
+const ar = maze.split('')
+    const result = []
+    for(let i=0;i<ar.length;i++){
+
+        if(ar[i]===' '){
+            result.push('x')
+            continue
+        }
+        if(i===0&&ar[i]==='x'){
+            result.push('x')
+            continue
+        }
+        if(i%2===0){result.push(ar[i])}
+        if(i%2!==0){result.push(ar[i]==='x'?'o':'x')}
+
+
+    }
+  let el= result.find(e=>e==='o')
+    if(el){return false}else {return true}
+
+}
+
+console.log(bulbMaze("xo oxox"))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function a (x,y){
-    if(x===y){
+    if(y-x===2){
         return [x+1]
     }else {
         //return 1+a(x,y-1)
@@ -21,10 +88,10 @@ function a (x,y){
 
 
 console.log(a(10,18))
+
+
+
 */
-
-
-
 
 
 
