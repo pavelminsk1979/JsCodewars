@@ -20,6 +20,49 @@
 
 
 
+
+
+/*
+
+
+function SeriesSum(n) {
+    let del=[]
+    for (let i=0;i<n;i++){
+    del.push(1+i*3)
+    }
+   let x = del.reduce((acc,el)=> acc+1/el,0)
+    let bb = Math.round(x*100)/100
+    if(x%1===0){
+return String(x)+'.00'
+    }
+    if((bb*10)%1===0){
+        return String(bb)+'0'
+    }
+    else {
+        return  String(bb)
+    }
+
+}
+
+
+//console.log(SeriesSum(1))
+//console.log(SeriesSum(5))
+console.log(SeriesSum(58))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function bulbMaze(maze){
