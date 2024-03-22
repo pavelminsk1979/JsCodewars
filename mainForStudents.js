@@ -21,6 +21,49 @@
 
 
 
+/*
+
+function planeSeat(a){
+
+    let arr= a.split('')
+    let letter = arr.pop()
+    let num= arr.join('')
+    let one;
+    let two;
+
+    if(num>0&&num<21){one='Front'}
+    else if (num>20&&num<41){one='Middle'}
+    else if(num>40&&num<61){one='Back'}
+    else {return 'No Seat!!'}
+
+    if(letter==='A'||letter==='B'||letter==='C'){two='Left'}
+    else if(letter==='D'||letter==='E'||letter==='F'){two='Middle'}
+    else if(letter==='G'||letter==='H'||letter==='K'){two='Right'}
+    else {return 'No Seat!!'}
+
+    return one+'-'+two
+}
+*/
+
+
+console.log(planeSeat('20B'))
+console.log(planeSeat('2B'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
