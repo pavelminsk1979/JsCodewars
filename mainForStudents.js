@@ -2,10 +2,26 @@
 
 
 
+function sortMyString(S) {
+let arr = S.split('')
+    let arr1=[];
+let arr2=[];
+
+    for(let i=0;i<arr.length;i++){
+
+        if(i===0||i%2===0){
+            arr1.push(arr[i])
+
+        } else {
+            arr2.push(arr[i])
+        }
+    }
+    return arr1.join('')+' '+arr2.join('')
+
+}
 
 
-
-
+console.log(sortMyString("CodeWars"))
 
 
 
