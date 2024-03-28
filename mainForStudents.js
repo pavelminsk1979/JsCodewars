@@ -1,6 +1,47 @@
 
 
+function interweave(s1, s2) {
+    let num = '0123456789'
+  let one = s1.split('')
+    let two = s2.split('')
+    let arr = []
+    for (let i=0;i<one.length;i++){
 
+        if(!num.includes(one[i])){
+            arr.push(one[i])
+        }
+
+        if(!num.includes(two[i])){
+            arr.push(two[i])
+        }
+
+    }
+    return arr.join('')
+}
+
+
+console.log(interweave("h3lo", "el4"))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 
 function sortMyString(S) {
 let arr = S.split('')
@@ -17,12 +58,12 @@ let arr2=[];
         }
     }
     return arr1.join('')+' '+arr2.join('')
-
 }
 
 
 console.log(sortMyString("CodeWars"))
 
+*/
 
 
 
