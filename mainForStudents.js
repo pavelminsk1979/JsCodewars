@@ -1,5 +1,70 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function validateWord(s) {
+let a = s.toLowerCase().split('')
+    let res =[...a]
+    let iii=[]
+    for (let i=0;i<a.length;i++){
+        let l = a[i]
+        let x = res.map((el)=>el===l?el='true':el)
+      let ww=x.filter((el)=>el==='true')
+        iii.push(ww.length)
+    }
+
+    let lll = iii.filter((el)=>iii[0]!==el)
+
+if(lll.length){return false}else {return true}
+}
+
+
+console.log(validateWord('abcabcd'))
+console.log(validateWord('AbcabcAbcabc'))
+console.log(validateWord('abc123'))
+console.log(validateWord('2%rundefined3ji:0kj6dzfjtifz?rhja8h!yr$hm*5222%%%ruuunndeefi333:::000kkk666zzttt???haaa888!!!yyy$$$mmm***555'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function interweave(s1, s2) {
     let num = '0123456789'
   let one = s1.split('')
@@ -18,6 +83,7 @@ function interweave(s1, s2) {
     }
     return arr.join('')
 }
+*/
 
 
 console.log(interweave("h3lo", "el4"))
