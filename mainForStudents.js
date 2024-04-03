@@ -21,7 +21,65 @@
 
 
 
+/*
+function matrix(array) {
 
+    let res = []
+
+    for (let i = 0; i < array.length; i++) {
+
+
+        res.push( array[i].map((el,index) => index===i ? el<0?0:1 : el
+        ))
+
+    }
+    return res
+}
+
+
+console.log(matrix([
+    [-1, 4, -5, -9, 3],
+    [6, -4, -7, 4, -5],
+    [3, 5, 0, -9, -1],
+    [1, 5, -7, -8, -9],
+    [-3, 2, 1, -5, 6]
+]))
+*/
+
+
+/*
+
+
+function isItLetter(character) {
+    if(character.toLowerCase()===character.toUpperCase()){
+        return false
+    }else {return true}
+}
+
+
+console.log(isItLetter('a'))
+console.log(isItLetter('1'))
+
+
+
+
+*/
+
+
+/*
+
+ if(true){
+    b=2
+ }
+
+a=4
+
+console.log(a)
+console.log(b)
+
+
+
+*/
 
 
 /*
@@ -53,16 +111,6 @@ console.log(validateWord('2%rundefined3ji:0kj6dzfjtifz?rhja8h!yr$hm*5222%%%ruuun
 */
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 
 function interweave(s1, s2) {
@@ -89,24 +137,6 @@ function interweave(s1, s2) {
 console.log(interweave("h3lo", "el4"))
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sortMyString(S) {
@@ -130,18 +160,6 @@ let arr2=[];
 console.log(sortMyString("CodeWars"))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -171,21 +189,6 @@ function planeSeat(a){
 
 console.log(planeSeat('20B'))
 console.log(planeSeat('2B'))
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -218,17 +221,6 @@ console.log(SeriesSum(58))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function bulbMaze(maze){
@@ -259,27 +251,6 @@ console.log(bulbMaze("xo oxox"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -301,12 +272,6 @@ console.log(a(10,18))
 
 
 */
-
-
-
-
-
-
 
 
 /*
@@ -336,20 +301,6 @@ console.log(pagesNumberingWithInk(21,5))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function gimmeTheLetters(sp) {
@@ -372,29 +323,6 @@ console.log(gimmeTheLetters('a-b'))
 console.log(gimmeTheLetters('a-n'))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -421,30 +349,6 @@ console.log(stonePick(["Sticks", "Sticks", "Cobblestone", "Cobblestone", "Cobble
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*var ownedCatAndDog = function(catYears, dogYears) {
@@ -560,7 +464,6 @@ console.log(ownedCatAndDog(24, 15))
 console.log(ownedCatAndDog(14, 14))
 console.log(ownedCatAndDog(15, 15))
 */
-
 
 
 /*
