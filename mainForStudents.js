@@ -21,6 +21,135 @@
 
 
 
+
+
+
+/*
+
+function filter_list(l) {
+   return l.filter(e=>typeof(e)==='number')
+}
+
+
+console.log(filter_list([1,2,'aasf','1','123',123]))
+console.log(filter_list([1,'a','b',0,15]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function strong(n) {
+let arr = String(n).split('')
+    let sum=0
+    for (let i=0;i<arr.length;i++){
+      let qqq =1
+        for (let j=1;j<=arr[i];j++) {
+            qqq=qqq*j
+        }
+
+
+        sum=sum+qqq
+    }
+    if(sum===n){return "STRONG!!!!"}else {
+        return "Not Strong !!"
+    }
+
+
+}
+
+console.log(strong(145))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+Array.prototype.customFilter = function (){}
+
+
+
+function a (){}
+a.title = 'Title'
+
+
+console.log(a.title)
+
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const a = {
+    name:'Name',
+    getName:function (){
+        return this.name
+    },
+    setName:function (value){
+        this.name=value
+    }
+}
+const b=new Object(a)
+b.setName('NewName')
+console.log(a.getName())
+
+const c = {...a}
+c.setName.bind(a,'CCC')()
+
+console.log(a.getName())
+
+console.log(a==b)
+console.log(a==c)
+
+
+
+function aaa (){}
+aaa.name = ":JJJLL"
+console.log(aaa.name)
+
+
+
+*/
+
+
+
+
+
 /*
 function matrix(array) {
 
