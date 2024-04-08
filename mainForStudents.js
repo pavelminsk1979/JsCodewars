@@ -1,6 +1,27 @@
 
 
+function oddOnesOut(nums) {
+    let obj = {}
+    for(let i=0;i<nums.length;i++){
+        if(obj[nums[i]]){
+            obj[nums[i]]+=1
+        }else {
+            obj[nums[i]]=1
+        }
+    }
+   let a = []
+    for(let key in obj){
+        if( obj[key]%2!==0){
+            a.push(key)
+        }
+    }
+   for (let j=0;j<a.length;j++){
+       nums=nums.filter(e=>e!==Number(a[j]))
+   }
+   return nums
+}
 
+console.log(oddOnesOut([1, 2, 3, 1, 3, 3]))
 
 
 
