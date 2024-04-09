@@ -1,5 +1,125 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+const a =(ar)=>{
+if(ar.length===0){
+    return 0
+}else {
+   return  ar[0]+a(ar.slice(1))
+
+}
+}
+
+console.log(a([1,2,3]))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const incCounter = (function (){
+    let a = 0
+    return function (){
+        a++
+        return a
+    }
+})()
+
+const foo=(n)=>{
+
+
+    for (let i =0;i<n;i++){
+        setTimeout(()=>{
+            console.log( incCounter())
+        },i*100)
+    }
+
+
+}
+
+foo(50)
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function a (value){
+    this.name=value
+    this.getValue = function (){
+        return this.name
+    }
+}
+
+const t = new a ('pavel')
+console.log(t.getValue)
+const x = JSON.stringify(t)
+console.log(x)
+const xxx = JSON.parse(x)
+console.log(t===xxx)
+console.log(xxx.name)
+console.log(2)
+console.log(1+xxx.getValue)
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function oddOnesOut(nums) {
     let obj = {}
     for(let i=0;i<nums.length;i++){
@@ -26,6 +146,7 @@ console.log(oddOnesOut([1, 2, 3, 1, 3, 3]))
 
 
 
+*/
 
 
 
