@@ -15,6 +15,33 @@
 
 
 
+/*
+function factorial(n) {
+    if(n<0||n>12){throw new Error('error factorial')}
+    let x =n
+    if(n===0||n===1){return 1}
+    let res =1
+    for(let i=1;i<=x;i++){
+        res*=i
+    }
+    return res
+}
+
+
+console.log(factorial(5))
+//console.log(factorial(15))
+console.log(factorial(1))
+
+*/
+
+
+
+
+
+
+
+
+
 
 
 
