@@ -15,6 +15,88 @@
 
 
 
+
+
+
+
+/*
+
+function wordsToMarks(string){
+    let listLeter={
+        a:1,
+        b:2,
+        c:3,
+        d:4,
+        e:5,
+        f:6,
+        g:7,
+        h:8,
+        i:9,
+        j:10,
+        k:11,
+        l:12,
+        m:13,
+        n:14,
+        o:15,
+        p:16,
+        q:17,
+        r:18,
+        s:19,
+        t:20,
+        u:21,
+        v:22,
+        w:23,
+        x:24,
+        y:25,
+        z:26,}
+    const arr = string.split('')
+    let sum=0
+    for (let i=0;i<arr.length;i++){
+        sum+=listLeter[arr[i]]
+    }
+    return sum
+}
+
+
+console.log(wordsToMarks("attitude"))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+/*
+
+function xx(el){
+    const p= Object.values(el)
+    const rr=p.filter(e=>!!e===true)
+    if(rr.length===p.length){return true}else {return false}
+}
+
+
+
+
+console.log(xx({a:'st',b:5,c:true}))
+console.log(xx({a:'st',b:0,c:true}))
+console.log(5*'2.4')
+
+*/
+
+
+
+
+
+
+
+
+
 /*
 function factorial(n) {
     if(n<0||n>12){throw new Error('error factorial')}
@@ -485,8 +567,8 @@ function planeSeat(a){
 */
 
 
-console.log(planeSeat('20B'))
-console.log(planeSeat('2B'))
+/*console.log(planeSeat('20B'))
+console.log(planeSeat('2B'))*/
 
 
 /*
