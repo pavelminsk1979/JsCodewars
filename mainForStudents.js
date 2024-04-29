@@ -21,6 +21,50 @@
 
 
 
+/*
+
+function numberProperty(n) {
+    let simple=false
+    let x=0
+    if(n>=2)
+     {
+        for(let i=2;i<=Math.sqrt(n);i++){
+            if(n%i===0){x+=1}
+        }
+        if(x===1){simple =true}
+    }
+
+    let chet=false
+    if(n===0){chet=true}else {
+        if(n%2===0){ chet=true}
+    }
+
+let ten = false
+    if(n%10===0){ten=true}
+
+    return [simple, chet, ten]
+
+}
+
+console.log(numberProperty(-2))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
