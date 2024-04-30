@@ -21,6 +21,81 @@
 
 
 
+
+
+
+
+
+
+/*
+
+
+Array.prototype.customFind = function (callback){
+    for(let i=0;i<this.length;i++){
+        if(callback(this[i])){
+            return this[i]
+        }
+    }
+    return null
+}
+
+
+const number = [1,2,3,4,5]
+//const foundItem = number.customFind
+console.log(number.customFind((el)=>  el===2))
+
+/!*
+
+Array.prototype.customFind = function (callback) {
+    for (let i = 0; i < this.length; i++) {
+        if (callback(this[i])) {
+            return this[i];
+        }
+    }
+    return null;
+};
+
+const numbers = [1, 2, 3, 4, 5];
+console.log(numbers.customFind((el) => el === 2));
+*!/
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+export const Component=({name:string})=>{
+    return <div>{name}</div>
+}
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function numberProperty(n) {
