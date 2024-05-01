@@ -24,6 +24,38 @@
 
 
 
+/*
+
+
+function bestFriend(txt, a, b) {
+
+  const arr = txt.split(a)
+   for (let i=1;i<arr.length;i++){
+       if(arr[i][0]!==b) return false
+   }
+   return true
+}
+
+
+console.log(bestFriend("he headed to the store", "h", "e"))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
