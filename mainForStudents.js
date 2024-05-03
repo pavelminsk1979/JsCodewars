@@ -24,6 +24,48 @@
 
 
 
+
+
+
+
+
+
+
+/*
+
+function evenLast(numbers) {
+    if(numbers.length===0)return 0
+    const finishNumber = numbers.slice(-1)
+    let num = 0
+   for (let i = 0;i<numbers.length;i++){
+
+       if([i]===0||[i]%2===0){
+          num= num+numbers[i]
+       }
+   }
+   return num*finishNumber[0]
+}
+
+
+console.log(evenLast([2, 3, 4, 5]))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 
