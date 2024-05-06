@@ -22,6 +22,40 @@
 
 
 
+/*
+function func () {
+    let count=0
+    return  ()=>{
+        console.log(count++)
+    }
+}
+
+const a = func()
+const x = func()
+
+a()
+a()
+a()
+a()
+x()
+x()
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
