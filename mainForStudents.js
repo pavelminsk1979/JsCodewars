@@ -5,9 +5,26 @@
 
 
 
+function getSum(a, b) {
+    if(a===b){return a}else {
+        let start
+        let finish
+        if(a<b){
+            start=a
+        finish=b}
+        if(b<a){
+            start=b
+        finish=a}
+        let sum=0
+        for(let i=start;i<=finish;i++){
+            sum += i
+        }
+        return sum
+    }
 
+}
 
-
+console.log(getSum(-1,2))
 
 
 
