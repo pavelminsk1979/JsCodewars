@@ -5,6 +5,57 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function diff(a, b){
+let all= a.concat(b)
+    let res = []
+ for(let i=0;i<all.length;i++){
+     let isExistInA=a.includes(all[i])
+     let isExistInAB=b.includes(all[i])
+
+     if(isExistInA&&isExistInAB){continue}else {
+        res.push(all[i])
+     }
+ }
+ return  [...new Set(res)].sort()
+}
+
+
+console.log(diff(['a','a','t','e','f','i','j'],['t','g','g','i','k','f']))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
 function getSum(a, b) {
     if(a===b){return a}else {
         let start
@@ -27,6 +78,7 @@ function getSum(a, b) {
 console.log(getSum(-1,2))
 
 
+*/
 
 
 
