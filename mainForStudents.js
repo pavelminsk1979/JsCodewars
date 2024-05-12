@@ -19,6 +19,62 @@
 
 
 
+
+
+
+
+
+
+
+
+/*
+
+function addBinary(a, b) {
+    const sum = a + b;
+    return sum.toString(2);
+}
+
+
+console.log(addBinary(1,1))
+console.log(addBinary(5,9))
+
+
+
+*/
+
+
+
+
+
+
+
+
+/*
+
+const promicse = new Promise((res,rej)=>{
+    return res('Hello')
+})
+
+promicse.then((res)=>{
+    console.log(res)})
+    .then(()=>{
+        console.log('111')})
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function diff(a, b){
