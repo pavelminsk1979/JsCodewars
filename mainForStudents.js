@@ -26,6 +26,38 @@
 
 
 
+/*
+
+function isIsogram(str){
+let array = str.toLowerCase().split('')
+    let obj={}
+    for(let i=0;i<array.length;i++){
+        if(obj[array[i]]){return false}else{
+            obj[array[i]]=1
+        }
+    }
+    return true
+}
+
+
+console.log(isIsogram("Dermatoglyphics"))
+console.log(isIsogram("aba"))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*
 
