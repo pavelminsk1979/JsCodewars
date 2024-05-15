@@ -8,13 +8,25 @@
 
 
 
+/*
+
+function convertHashToArray(hash){
+    const keys = Object.keys(hash).sort()
+    let array = []
+    for(let i=0;i<keys.length;i++){
+        let one = keys[i]
+        let two = hash[keys[i]]
+
+        array.push([one,two])
+    }
+    return array
+
+}
 
 
+console.log(convertHashToArray({name: 'Jeremy', age: 24, role: 'Software Engineer'}))
 
-
-
-
-
+*/
 
 
 
