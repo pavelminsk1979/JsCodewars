@@ -8,6 +8,37 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function findMissing(arr1, arr2) {
+    for (let i = 0; i < arr2.length; i++) {
+        let el = arr2[i]
+
+        let index = arr1.findIndex(elem=>elem===el)
+
+        arr1.splice(index, 1)
+    }
+    return arr1[0]
+}
+
+
+console.log(findMissing([6, 1, 3, 6, 8, 2], [3, 6, 6, 1, 2]))
+
+*/
+
 /*
 
 function convertHashToArray(hash){
@@ -27,15 +58,6 @@ function convertHashToArray(hash){
 console.log(convertHashToArray({name: 'Jeremy', age: 24, role: 'Software Engineer'}))
 
 */
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -59,18 +81,6 @@ console.log(isIsogram("aba"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function addBinary(a, b) {
@@ -87,12 +97,6 @@ console.log(addBinary(5,9))
 */
 
 
-
-
-
-
-
-
 /*
 
 const promicse = new Promise((res,rej)=>{
@@ -107,16 +111,6 @@ promicse.then((res)=>{
 
 
 */
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -139,18 +133,6 @@ let all= a.concat(b)
 console.log(diff(['a','a','t','e','f','i','j'],['t','g','g','i','k','f']))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -181,16 +163,6 @@ console.log(getSum(-1,2))
 */
 
 
-
-
-
-
-
-
-
-
-
-
 /*
 function func () {
     let count=0
@@ -210,28 +182,6 @@ x()
 x()
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -255,20 +205,6 @@ console.log(evenLast([2, 3, 4, 5]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -287,21 +223,6 @@ console.log(bestFriend("he headed to the store", "h", "e"))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -341,18 +262,6 @@ console.log(numbers.customFind((el) => el === 2));
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 export const Component=({name:string})=>{
@@ -361,16 +270,6 @@ export const Component=({name:string})=>{
 
 
 */
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -403,20 +302,6 @@ console.log(numberProperty(-2))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -515,14 +400,6 @@ console.log(encode("scout",1939))
 */
 
 
-
-
-
-
-
-
-
-
 /*
 
 function wordsToMarks(string){
@@ -568,14 +445,6 @@ console.log(wordsToMarks("attitude"))
 */
 
 
-
-
-
-
-
-
-
-
 /*
 
 function xx(el){
@@ -592,13 +461,6 @@ console.log(xx({a:'st',b:0,c:true}))
 console.log(5*'2.4')
 
 */
-
-
-
-
-
-
-
 
 
 /*
@@ -621,17 +483,6 @@ console.log(factorial(1))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -647,16 +498,6 @@ if(ar.length===0){
 console.log(a([1,2,3]))
 
 */
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -687,18 +528,6 @@ foo(50)
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function a (value){
@@ -718,16 +547,6 @@ console.log(xxx.name)
 console.log(2)
 console.log(1+xxx.getValue)
 */
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -762,23 +581,6 @@ console.log(oddOnesOut([1, 2, 3, 1, 3, 3]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function filter_list(l) {
@@ -791,15 +593,6 @@ console.log(filter_list([1,'a','b',0,15]))
 
 
 */
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -829,18 +622,6 @@ console.log(strong(145))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 Array.prototype.customFilter = function (){}
@@ -857,15 +638,6 @@ console.log(a.title)
 
 
 */
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -900,9 +672,6 @@ console.log(aaa.name)
 
 
 */
-
-
-
 
 
 /*
