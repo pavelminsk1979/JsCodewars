@@ -22,6 +22,22 @@
 
 
 
+
+
+
+
+
+/*
+function sortGiftCode(code) {
+    return code.split('').sort().join('')
+
+}
+
+
+console.log(sortGiftCode('pqksuvy'))
+
+*/
+
 /*
 function findMissing(arr1, arr2) {
     for (let i = 0; i < arr2.length; i++) {
