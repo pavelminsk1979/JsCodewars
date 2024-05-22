@@ -27,6 +27,73 @@
 
 
 
+
+
+/*
+
+function rpsls(pl1,pl2){
+if(pl1==='rock'){
+    if(pl2==='rock'){return 'Draw!'}
+    if(pl2==='lizard'||pl2==='scissors'){return 'Player 1 Won!'}
+    if(pl2==='paper'||pl2==='spock'){return 'Player 2 Won!'}
+}
+
+    if(pl1==='lizard'){
+        if(pl2==='lizard'){return 'Draw!'}
+        if(pl2==='spock'||pl2==='paper'){return 'Player 1 Won!'}
+        if(pl2==='scissors'||pl2==='rock'){return 'Player 2 Won!'}
+    }
+
+    if(pl1==='paper'){
+        if(pl2==='paper'){return 'Draw!'}
+        if(pl2==='rock'||pl2==='spock'){return 'Player 1 Won!'}
+        if(pl2==='scissors'||pl2==='lizard'){return 'Player 2 Won!'}
+    }
+
+    if(pl1==='scissors'){
+        if(pl2==='scissors'){return 'Draw!'}
+        if(pl2==='lizard'||pl2==='paper'){return 'Player 1 Won!'}
+        if(pl2==='rock'||pl2==='spock'){return 'Player 2 Won!'}
+    }
+
+    if(pl1==='spock'){
+        if(pl2==='spock'){return 'Draw!'}
+        if(pl2==='lizard'||pl2==='paper'){return 'Player 2 Won!'}
+        if(pl2==='rock'||pl2==='scissors'){return 'Player 1 Won!'}
+    }
+
+}
+
+
+console.log(rpsls('rock', 'lizard'))
+console.log(rpsls('scissors', 'lizard'))
+console.log(rpsls('paper', 'rock'))
+console.log(rpsls('lizard', 'paper'))
+console.log(rpsls('spock', 'rock'))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function sortGiftCode(code) {
     return code.split('').sort().join('')
