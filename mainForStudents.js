@@ -31,6 +31,52 @@
 
 /*
 
+function sentence(arrayOfObjects) {
+
+    let arr =  arrayOfObjects.map(e=>Object.keys(e)).map(e=>Number(e[0]))
+    let array = arr.sort((a,b)=>a-b)
+
+let res = []
+    for (let i=0;i<array.length;i++){
+        let word= arrayOfObjects.find(e=>e[array[i]])
+
+        res.push(word[array[i]])
+    }
+
+return res.join(' ')
+
+}
+
+
+console.log(sentence(            [
+        {'4': 'dog' }, {'2': 'took'}, {'3': 'his'},
+        {'-2': 'Vatsan'}, {'5': 'for'}, {'6': 'a'}, {'12': 'spin'}
+    ]
+))
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function rpsls(pl1,pl2){
 if(pl1==='rock'){
     if(pl2==='rock'){return 'Draw!'}
