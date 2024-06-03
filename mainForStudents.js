@@ -8,12 +8,32 @@
 
 
 
+/*
+
+function differenceOfSquares(n) {
+
+    const arr= []
+    for(let i=1;i<=n;i++){
+        arr.push(i)
+    }
+    const one = arr.reduce((acc,el)=>acc+el)
+    const oneOne = Math.pow(one,2)
 
 
+    const two=[]
+    for(let i= 0  ; i<arr.length;i++){
+let num = Math.pow(arr[i],2)
+        two.push(num)
+    }
+    const twoTwo= two.reduce((acc,el)=>acc+el)
+    return oneOne-twoTwo
+
+}
 
 
+console.log(differenceOfSquares(5))
 
-
+*/
 
 
 
