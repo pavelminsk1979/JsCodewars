@@ -8,6 +8,65 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+function divCon(x) {
+    if (x.length === 0) {
+        return 0
+    }
+
+    let num = x.filter(e => typeof e === "number")
+    let n
+    if (num.length === 0) {
+        n = 0
+    } else {
+        n = num.reduce((ac, el) => ac + el)
+    }
+
+    let string = x.filter(e => typeof e === "string")
+    let s
+    if (string.length === 0) {
+        s = 0
+    } else {
+        let str = string.map(e => Number(e)).filter(e => !isNaN(e))
+
+        if (str.length === 0) {
+            n = 0
+        } else {
+            s = str.reduce((ac, el) => ac + el)
+        }
+    }
+
+    return n - s
+
+
+
+}
+
+
+console.log(divCon([9, 6]))
+console.log(divCon(["0", "8", "4", "1", "5"]))
+console.log(divCon([9, 3, '7', '3', 'j']))
+*/
+
+
+
+
+
+
+
+
 /*
 
 function differenceOfSquares(n) {
@@ -36,19 +95,6 @@ console.log(differenceOfSquares(5))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function sentence(arrayOfObjects) {
@@ -74,25 +120,6 @@ console.log(sentence(            [
     ]
 ))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -137,27 +164,6 @@ console.log(rpsls('paper', 'rock'))
 console.log(rpsls('lizard', 'paper'))
 console.log(rpsls('spock', 'rock'))
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
