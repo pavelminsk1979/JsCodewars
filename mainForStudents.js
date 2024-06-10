@@ -20,6 +20,119 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+function findGlasses(arr){
+ for ( let i=0;i<arr.length;i++){
+
+     let res =  arr[i].includes('O')
+
+      if(!res){continue }
+      let a = arr[i].split('')
+
+      const index =  a.findIndex(e=>e==='O')
+      a.splice(0,index+1)
+
+     const index2 =  a.findIndex(e=>e==='-')
+     a.splice(0,index2)
+     if(a[0]!=='-'){continue}
+
+     const aa = a.filter(e=>e!=='-')
+     if(aa[0]!=='O'){continue}
+     return i
+ }
+}
+
+
+console.log(findGlasses(["OOOO----~OOO","-------","OOOOOOO","OO-OO-OO-O"]))
+console.log(findGlasses(["phone", "O-O", "coins", "keys"]))
+console.log(findGlasses(["O--#--O", "more dust","dustO---Odust"]))
+console.log(findGlasses([ "dustO---Odust", "more dust"]))
+console.log(findGlasses([ "dustO---Odust", "more dust"]))
+*/
+
+
+
+/*function findGlasses(arr){
+    for ( let i=0;i<arr.length;i++){
+
+        let res =  arr[i].includes('O')
+        if(!res){continue }
+        let a = arr[i].split('')
+        const index =  a.findIndex(e=>e==='O')
+        a.splice(0,index+1)
+        const aa = a.reverse()
+        const index2 =  a.findIndex(e=>e==='O')
+        aa.splice(0,index2+1)
+        if(aa.length===0){continue}
+        const result =  aa.every(e=>e==='-')
+        if (!result) {continue}
+        else { return i}
+    }
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function takeUmbrella(weather, chance) {
+    if (weather==='sunny'&&chance>0.5){return true}
+    if (weather==='sunny'){return false}
+
+    if(weather==='rainy')
+    {return true}
+
+    if (weather==='cloudy'&&chance>0.2){return true}else {return false}
+}
+
+
+console.log(takeUmbrella('sunny',0.4))
+console.log(takeUmbrella('rainy',0))
+console.log(takeUmbrella('cloudy',0.2))
+console.log(takeUmbrella('sunny',0.92))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
 /*
 function divCon(x) {
     if (x.length === 0) {
