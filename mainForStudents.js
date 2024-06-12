@@ -22,6 +22,38 @@
 
 
 
+/*
+
+function divisibleByLast(n) {
+ let a =  [...String(n)]
+    let res = [false]
+    for(let i=1;i<a.length;i++){
+        if( a[i]%a[i-1]===0) {
+            res.push(true)
+        }else { res.push(false)}
+    }
+    return res
+}
+
+
+console.log(divisibleByLast(2026))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
