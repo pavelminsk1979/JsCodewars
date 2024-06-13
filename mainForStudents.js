@@ -22,6 +22,56 @@
 
 
 
+
+
+
+
+
+
+/*
+
+function checkExam(array1, array2) {
+    let  res = 0
+  for(let i=0;i<array1.length;i++){
+      if(array1[i]===array2[i]){
+          res=res+4
+      }
+      if(array1[i]!==array2[i]){
+          if(array2[i]===''){
+              res=res+0
+          } else {
+              res=res-1
+          }
+
+      }
+  }
+  if(res<0){return 0}
+  return res
+}
+
+
+console.log(checkExam(["a", "a", "b", "b"], ["a", "c", "b", "d"]))
+console.log(checkExam(["a", "a", "c", "b"], ["a", "a", "b",  ""]))
+console.log(checkExam(["a", "a", "b", "c"], ["a", "a", "b", "c"]))
+console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function divisibleByLast(n) {
