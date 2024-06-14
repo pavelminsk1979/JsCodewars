@@ -30,6 +30,103 @@
 
 /*
 
+const intDiff = (arr, n) => {
+    const res = []
+
+   for(let i=0;i<arr.length;i++){
+       for(let j =i+1;j<arr.length;j++){
+         const a = arr[i]
+         const b = arr[j]
+           if(a>=b){ res.push(a-b)}else {
+               res.push(b-a)
+           }
+       }
+   }
+
+   return res
+   //return res.filter(e=>e===n).length
+}
+
+
+console.log(intDiff([1, 1, 5, 6, 9, 16, 27], 4))
+console.log(intDiff([1, 1, 3, 3], 2))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+const a = (arr)=>{
+   for(let i=0;i<arr.length;i++){
+       for(let x =0;x<arr.length-1-i;x++){
+           if(arr[x]>arr[x+1]){
+               let bb=arr[x]
+               arr[x]=arr[x+1]
+               arr[x+1]=bb
+           }
+       }
+   }
+   return arr
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+console.log(a([3,45,893,3,0,8,35,65784,9,22,2,3,56,7]))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function checkExam(array1, array2) {
     let  res = 0
   for(let i=0;i<array1.length;i++){
