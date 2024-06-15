@@ -28,6 +28,32 @@
 
 
 
+
+/*function bank(mun) {
+    const banknotes = [1000, 500, 100, 50, 20, 10, 5, 2, 1]
+    let res = []
+
+    for (let i = 0; i < banknotes.length; i++) {
+
+        if (mun > 0) {
+            if (mun < banknotes[i]) {
+                continue
+            } else {
+                let a = Math.floor(mun / banknotes[i])
+                let blanks = Array(a).fill(banknotes[i])
+                res = res.concat(blanks)
+                mun = mun - (a * (banknotes[i]))
+            }
+
+        }
+    }
+    return res
+}
+
+
+console.log(bank(3908))*/
+
+
 /*
 
 const intDiff = (arr, n) => {
@@ -54,25 +80,6 @@ console.log(intDiff([1, 1, 3, 3], 2))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -109,22 +116,6 @@ console.log(a([3,45,893,3,0,8,35,65784,9,22,2,3,56,7]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function checkExam(array1, array2) {
@@ -155,20 +146,6 @@ console.log(checkExam(["b", "c", "b", "a"], ["",  "a", "a", "c"]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function divisibleByLast(n) {
@@ -186,29 +163,6 @@ function divisibleByLast(n) {
 console.log(divisibleByLast(2026))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -244,7 +198,6 @@ console.log(findGlasses([ "dustO---Odust", "more dust"]))
 */
 
 
-
 /*function findGlasses(arr){
     for ( let i=0;i<arr.length;i++){
 
@@ -262,22 +215,6 @@ console.log(findGlasses([ "dustO---Odust", "more dust"]))
         else { return i}
     }
 }*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -301,15 +238,6 @@ console.log(takeUmbrella('sunny',0.92))
 
 
 */
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -351,12 +279,6 @@ console.log(divCon([9, 6]))
 console.log(divCon(["0", "8", "4", "1", "5"]))
 console.log(divCon([9, 3, '7', '3', 'j']))
 */
-
-
-
-
-
-
 
 
 /*
