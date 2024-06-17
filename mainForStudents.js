@@ -25,6 +25,44 @@
 
 
 
+/*
+
+
+function wordSearch(query, seq){
+
+
+    let res = []
+   for(let i=0;i<seq.length;i++){
+
+       if( seq[i].toLowerCase().includes(query.toLowerCase())){
+           res.push(seq[i])
+       }
+   }
+   if(res.length===0) return ['Empty']
+   return res
+}
+
+
+console.log(wordSearch("ab", ["za", "ab", "abc", "zab", "zbc"]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
