@@ -17,6 +17,33 @@
 
 
 
+/*
+
+function lottery(str){
+    const arr = [...str]
+   let a =[]
+    for(let i=0;i<arr.length;i++){
+        if(arr[i].toLowerCase()===arr[i].toUpperCase()){
+            a.push(arr[i])
+        }
+    }
+    let n =  [... new Set(a)]
+    if(n.length===0)return 'One more run!'
+    return n.join('')
+}
+
+
+console.log(lottery("wQ8Hy0y5m5oshQPeRCkG"))
+
+
+*/
+
+
+
+
+
+
+
 
 
 
