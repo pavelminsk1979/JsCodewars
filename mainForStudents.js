@@ -1,9 +1,18 @@
 
 
+function inAscOrder(arr) {
+    const res = []
+    for(let i=0;i<arr.length-1;i++){
+        if(arr[i]<arr[i+1]){
+            res.push(true)
+        }else {res.push(false)}
+    }
+    return res.every(e=>e)
+}
 
 
-
-
+console.log(inAscOrder([1, 6, 10, 18, 2, 4, 20]))
+console.log(inAscOrder([1, 2, 4, 7, 19]))
 
 
 
