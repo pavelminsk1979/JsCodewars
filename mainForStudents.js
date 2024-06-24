@@ -1,5 +1,114 @@
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function gHappy(str) {
+    const arr = [...str]
+
+    for (let i = 0; i < arr.length; i++) {
+        let x = arr[i]
+        if (x !== 'g') {
+            continue
+        }
+        if (i === 0 || i === arr.length - 1) {
+            if (i === 0) {
+                if (arr[1] !== 'g') {
+                    return false
+                }
+            } else {
+
+                if (arr[arr.length - 2] !== 'g') {
+                    return false
+                }
+
+            }
+
+        } else {
+            if (arr[i - 1] !== 'g' || arr[i + 1] !== 'g') {
+                return false
+            }
+        }
+
+
+    }
+    return true
+
+}*/
+
+/*
+
+function gHappy(str) {
+    const arr = [...str]
+    const res = []
+    for (let i = 0; i < arr.length; i++) {
+
+        if (arr[i] !== 'g') {
+            continue
+        }
+        if (i === 0) {
+            if (arr[1] !== 'g') {
+                return false
+            }
+            continue
+        }
+        if (i !== arr.length - 1) {
+            if (arr[i - 1] === 'g' || arr[i + 1] === 'g') {
+                res.push(true)
+            } else {
+                res.push(false)
+            }
+            continue
+        } else {
+            if (arr[arr.length - 2] !== 'g') {
+                return false
+            }
+        }
+
+    }
+    const a = res.filter(e => !e)
+    return a.length > 0 ? false : true
+
+}
+
+
+console.log(gHappy("gg0gg3gg0gg"))
+console.log(gHappy("gog"))
+console.log(gHappy("ggg ggg g ggg"))
+*/
+
+
+/*
+
 function inAscOrder(arr) {
     const res = []
     for(let i=0;i<arr.length-1;i++){
@@ -15,15 +124,7 @@ console.log(inAscOrder([1, 6, 10, 18, 2, 4, 20]))
 console.log(inAscOrder([1, 2, 4, 7, 19]))
 
 
-
-
-
-
-
-
-
-
-
+*/
 
 
 /*
@@ -48,19 +149,6 @@ console.log(lottery("wQ8Hy0y5m5oshQPeRCkG"))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 
@@ -83,24 +171,6 @@ console.log(wordSearch("ab", ["za", "ab", "abc", "zab", "zbc"]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*function bank(mun) {
