@@ -29,8 +29,34 @@
 
 
 
+/*
+function ranks(a) {
+    const b = [...a]
+    const sort = b.sort((a, b) => a - b)
+    const arr = sort.reverse()
+    const obj = {}
+
+    for (let i = 0; i < arr.length; i++) {
+        if (obj[arr[i]]) {
+            continue
+        }
+
+        obj[arr[i]] = i+1
+    }
+    //return obj
+    const res = []
+    for (let i = 0; i < a.length; i++) {
+        //debugger
+        const num = obj[a[i]]
+        res.push(num)
+    }
+    return res
+}
 
 
+console.log(ranks([5, 2, 3, 5, 5, 4, 9, 8, 0]))
+
+*/
 
 /*function gHappy(str) {
     const arr = [...str]
