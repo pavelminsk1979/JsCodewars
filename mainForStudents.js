@@ -29,6 +29,42 @@
 
 
 
+
+
+
+
+/*
+function onlyDuplicates(str) {
+
+    const a = [...str]
+    const res = {}
+    for (let i = 0; i < a.length; i++) {
+
+        if (res[a[i]]) {
+            const num = res[a[i]]
+            const z = num + 1
+            res[a[i]] = z
+
+        } else {
+            res[a[i]] = 1
+
+        }
+
+    }
+    const result = []
+    for(let i=0;i<a.length;i++){
+        if(res[a[i]]>1){
+            result.push(a[i])
+        }
+    }
+    return result.join('')
+}
+
+
+console.log(onlyDuplicates('abccdefee'))
+*/
+
+
 /*
 function ranks(a) {
     const b = [...a]
