@@ -23,14 +23,36 @@
 
 
 
+/*function beggars(values, n) {
+    let take = Array(n).fill(0);
+
+    for (let i = 0; i < values.length; i++)
+        take[i % n] += values[i];
+
+    return take;
+
+}
 
 
+console.log(beggars([1, 2, 3, 4, 5], 3))*/
 
 
+/*
+
+let a = {
+    title:'Pav',
+    studen:['Ola','Nata'],
+    showList(){
+        this.studen.forEach(
+            s=>alert(this.title+'...'+s)
+        )
+    }
+}
 
 
+a.showList()
 
-
+*/
 
 
 /*
