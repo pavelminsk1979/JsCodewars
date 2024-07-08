@@ -23,6 +23,53 @@
 
 
 
+
+
+
+
+/*function solve(s){
+  const ar= [...s]
+    const res = {}
+    for(let i=0;i<ar.length;i++){
+        if(res[ar[i]]){
+            res[ar[i]]+=1
+        }else {
+            res[ar[i]]=1
+        }
+    }
+   const array =  Object.values(res)
+    for(let i=0;i<array.length;i++){
+       const modificArray = [...array]
+        const newAr= modificArray.fill(array[i]-1,i,i+1)
+        const newArray=newAr.filter(e=>e!==0)
+        const num = newArray[0]
+        if(!newArray[1]){return true}
+        const isTrue=  newArray.every(e=>e===num)
+        if(isTrue){return true}
+    }
+    return false
+};*/
+
+
+console.log(solve('abbba'))
+console.log(solve('aabbccddd'))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*function beggars(values, n) {
     let take = Array(n).fill(0);
 
