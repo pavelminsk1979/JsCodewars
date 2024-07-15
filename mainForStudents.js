@@ -23,6 +23,33 @@
 
 
 
+
+/*
+function high(x) {
+    const a = [1, 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+const resultArray = []
+    const arr = x.split(' ')
+
+    for (let i = 0; i < arr.length; i++) {
+        const array = [...arr[i]]
+
+        const res = array.reduce((acc,el)=>{
+          return  acc+ a.indexOf(el)
+        },0)
+
+         resultArray.push(res)
+    }
+    const max=  Math.max(...resultArray)
+
+    const index =  resultArray.indexOf(max)
+    return arr[index]
+}
+
+
+console.log(high('man i need a taxi up to ubud'))
+*/
+
+
 /*function decrypt(encryption) {
     const arr = [...encryption]
     let res = {
