@@ -2,16 +2,37 @@
 
 
 
+function persistence(num) {
+
+   if(num<11)return 0
 
 
 
+    let iteration = 0
+
+    for(let i=1;i<100000;i++){
+
+        let str =  String(num)
+        let arr =   [...str].map(e=>+e)
+
+        let result =    arr.reduce((ac,el)=>ac*el)
+
+        num = result
+
+        iteration=i
+
+        if(result<10) break
+    }
+return  iteration
+
+}
 
 
 
-
-
-
-
+console.log(persistence(39))
+console.log(persistence(4))
+console.log(persistence(25))
+console.log(persistence(999))
 
 
 
