@@ -2,6 +2,80 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function transpose(matrix) {
+
+    const countResultArray = matrix[0].length
+    const result =  []
+    for(let x =0;x<countResultArray;x++){
+        result.push([])
+    }
+
+    for(let i=0;i<matrix.length;i++){
+
+        const elem =  matrix[i]
+        for(let j=0;j<elem.length;j++){
+/!*result[j]---это первый пустой массив  я добавляю в него
+    elem[j]   один елемент из масива [1,2,3]*!/
+            const vnutrenniAray = result[j]
+              vnutrenniAray.push(elem[j])
+
+
+
+        }
+    }
+return result
+}
+
+
+console.log(transpose([[1,2,3],[4,5,6]]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function persistence(num) {
 
    if(num<11)return 0
@@ -34,6 +108,7 @@ console.log(persistence(4))
 console.log(persistence(25))
 console.log(persistence(999))
 
+*/
 
 
 
