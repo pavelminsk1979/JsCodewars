@@ -23,6 +23,29 @@
 
 
 
+/*
+
+function isPangram(string){
+    const a = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+
+    const arrayLiters = string.split('')
+for(let i=0;i<arrayLiters.length;i++){
+
+    const liter =  arrayLiters[i].toLowerCase()
+    if(a.includes(liter)){
+        const index =  a.indexOf(liter)
+        a.splice(index,1)
+
+    }
+}
+
+if (a.length===0){return true} else {return false}
+}
+
+
+console.log(isPangram('A pangram is a sentence that contains every single letter of the alphabet at least once.'))
+
+*/
 
 
 /*
@@ -56,22 +79,6 @@ console.log(transpose([[1,2,3],[4,5,6]]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -109,15 +116,6 @@ console.log(persistence(25))
 console.log(persistence(999))
 
 */
-
-
-
-
-
-
-
-
-
 
 
 /*
