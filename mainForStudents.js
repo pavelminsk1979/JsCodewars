@@ -20,7 +20,64 @@
 
 
 
+/*
+function solution(str) {
+    if (str.length === 0) return []
+    const arr = str.split('')
+    const result1 = []
+    const result2 = []
+    for (let i = 0; i < arr.length; i++) {
+        if (i % 2 === 0) {
+            result1.push(arr[i])
+        } else {
+            {
+                result2.push(arr[i])
+            }
+        }
+    }
+   const res = []
+    for (let i=0;i<result1.length;i++){
+        if(result2[i]){
+            res.push(result1[i] + result2[i])
+        }else {
+            res.push(result1[i] + '_')
+        }
 
+
+    }
+    return res
+}
+
+
+console.log(solution("abcdefg"))
+console.log(solution(""))
+*/
+
+
+/*
+
+function solution(string) {
+    const liters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    const arr = string.split('')
+    const res = []
+    for (let i=0;i<arr.length;i++){
+        if(liters.includes(arr[i])){
+
+
+            res.push(' ',arr[i])
+
+        }else {res.push(arr[i])}
+
+    }
+    return res.join('')
+
+}
+
+console.log(solution('camelCasingTest'))
+console.log(solution(''))
+
+
+*/
 
 
 /*
