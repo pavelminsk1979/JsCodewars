@@ -20,6 +20,35 @@
 
 
 
+
+
+
+
+/*
+function bingo(ticket, win) {
+    let res = 0
+    for (let i = 0; i < ticket.length; i++) {
+        const liters = ticket[i][0].split('')
+        const numb = ticket[i][1]
+        for (let j = 0; j < liters.length; j++) {
+            if (liters[j].codePointAt() === numb) {
+                res += 1
+                break
+            }
+
+        }
+    }
+
+    if (res >= win) return 'Winner!'
+    return 'Loser!'
+
+}
+
+
+console.log(bingo([['FEZHERA', 70], ['FVWQZIRB', 72], ['MNTRANGQ', 77]], 1))
+*/
+
+
 /*
 function solution(str) {
     if (str.length === 0) return []
