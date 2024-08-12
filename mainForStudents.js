@@ -24,6 +24,57 @@
 
 
 
+
+
+
+
+
+
+
+
+/*
+
+
+function findMissingLetter(array) {
+    let flag = true
+    if(array[0]===array[0].toLowerCase()){
+        flag=false
+    }
+
+    const liters = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+    const arr = array.join('').toUpperCase().split('')
+    let res
+    let index
+    for (let i = 0; i < arr.length; i++) {
+
+        if(i===0){
+           const first = arr[i]
+            index = liters.indexOf(first)
+        }
+
+
+
+        if (arr[i] === liters[i+index]) {
+            //debugger
+            continue
+        } else {
+            res = liters[i+index]
+            break
+        }
+    }
+    if(flag){return res}else {
+        return res.toLowerCase()
+    }
+
+
+
+}
+
+console.log(findMissingLetter(['O', 'Q', 'R', 'S']))
+console.log(findMissingLetter(['a', 'b', 'c', 'd', 'f']))
+*/
+
+
 /*
 function bingo(ticket, win) {
     let res = 0
