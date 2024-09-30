@@ -5,10 +5,25 @@
 
 
 
+function count(string) {
+
+    const arr =  string.split('')
+    const res = {}
+
+    for(let i=0;i<arr.length;i++){
+        const name = arr[i]
+
+        if(res[name]){
+            res[name]+=1
+        }else {
+            res[name]=1
+        }
+    }
+    return res
+}
 
 
-
-
+console.log(count('aba'))
 
 
 
@@ -351,8 +366,8 @@ console.log(decrypt('$aaaa#bbb*ccfff!z'))*/
 };*/
 
 
-console.log(solve('abbba'))
-console.log(solve('aabbccddd'))
+/*console.log(solve('abbba'))
+console.log(solve('aabbccddd'))*/
 
 
 /*function beggars(values, n) {
@@ -1716,7 +1731,7 @@ function interweave(s1, s2) {
 */
 
 
-console.log(interweave("h3lo", "el4"))
+//console.log(interweave("h3lo", "el4"))
 
 
 /*
@@ -5504,7 +5519,7 @@ let x= str.split(' ')
 }*/
 
 
-console.log(addLength('you will win'))
+//console.log(addLength('you will win'))
 
 
 /*
@@ -6029,7 +6044,7 @@ const students = [
         scores: 105
     },
 ];
-console.log(students)
+//console.log(students)
 
 
 /*function findAverage(array) {
