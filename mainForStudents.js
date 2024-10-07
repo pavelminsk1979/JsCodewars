@@ -5,6 +5,155 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function likes(names) {
+   if(names.length===0){return 'no one likes this'}
+   if(names.length===1){
+       const name = names[0]
+       return `${name} likes this`
+   }
+   if(names.length===2){
+       const name1 = names[0]
+       const name2 = names[1]
+
+       return `${name1} and ${name2} like this`
+
+   }
+   if(names.length===3){
+       const name1 = names[0]
+       const name2 = names[1]
+       const name3 = names[2]
+       return `${name1}, ${name2} and ${name3} like this`
+
+   }
+   if(names.length>3){
+       const count = names.length - 2
+       const name1 = names[0]
+       const name2 = names[1]
+       return `${name1}, ${name2} and ${count} others like this`
+
+   }
+}
+
+console.log(likes([]))
+console.log(likes(['Peter']))
+console.log(likes(['Jacob', 'Alex']))
+console.log(likes(['Max', 'John', 'Mark']))
+console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*function isValidIP(str) {
+
+debugger
+    if (isNaN(Number(str[0]))){
+        return false
+    }
+
+
+    return true
+}
+
+
+console.log(isValidIP('\6'))*/
+
+/*
+
+function isValidIP(str) {
+    const arr = str.split('.')
+    if (arr.length !== 4) return false
+
+
+
+    for (let i = 0; i < arr.length; i++) {
+        let num = arr[i]
+
+
+        if (num.toUpperCase() !== num.toLowerCase()) return false
+
+        if(+num<0 || +num>255) return false
+
+        if(+num>0 && num[0]==='0') return false
+
+        if(+num>0 && num[0]===' ') return false
+
+        if(+num>0 && num[1]===' ') return false
+
+        if(+num>0 && num[2]===' ') return false
+
+        if(+num>0 && num[3]===' ') return false
+
+        if(num[0] === '\n') return false
+
+        if(num[1] === '\n') return false
+
+        if(num[2] === '\n') return false
+
+        if(num==='') return false
+
+        if(num==='00'||num==='000') return false
+
+
+
+    }
+    return true
+}
+
+
+
+console.log(isValidIP(".213.188.57"))
+
+*/
+
+/*
+
+
 function count(string) {
 
     const arr =  string.split('')
@@ -25,26 +174,7 @@ function count(string) {
 
 console.log(count('aba'))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 
 /*
