@@ -11,24 +11,65 @@
 
 
 
+/*
+function upArray(arr) {
+    if (arr.length === 0) return null
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] > 9) return null
+        if (arr[i] < 0) return null
+    }
+    const elem = arr.join('')
+    if (elem[0] > 0) {
+
+        if (elem > Number.MAX_SAFE_INTEGER) {
+            const element = BigInt(elem) + BigInt(1)
+            const elString = element.toString()
+            return elString.split('').map(e => +e)
+        } else {
+
+            const element = Number(elem) + 1
+            return String(element).split('').map(e => +e)
+        }
+
+    } else {
+        let item = 0
+        for (let i = 0; i < arr.length; i++) {
+            if (arr[i] === 0) {
+                item = item + 1
+            } else {
+                break
+            }
+        }
+        if (elem > Number.MAX_SAFE_INTEGER) {
+            const element = BigInt(elem) + BigInt(1)
+            const elString = element.toString()
+            let result = elString.split('').map(e => +e)
+            for (let i = 0; i < item; i++) {
+                result.unshift(0)
+            }
+            return result
+        } else {
+            const element = Number(elem) + 1
+            let result = String(element).split('').map(e => +e)
+            for (let i = 0; i < item; i++) {
+                result.unshift(0)
+            }
+            return result
+        }
+
+    }
+}
 
 
+console.log(upArray([0, 7, 3, 3, 6, 8, 3, 0, 6, 9, 9, 2, 1, 3, 5, 5, 2, 3, 0, 1, 5, 2, 7, 2, 2, 6, 7, 0, 5, 1, 1, 1, 8, 0, 3, 9, 3, 2, 6, 1]))
+console.log(upArray([0, 7]))
+console.log(upArray([0, 0, 7]))
+console.log(upArray([2, -3, 9, 9]))
+console.log(upArray([2, 33, 9, 9]))
+console.log(upArray([2, 3, 9, 9]))
+console.log(upArray([9, 9]))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+*/
 
 /*
 
@@ -68,25 +109,6 @@ console.log(likes(['Max', 'John', 'Mark']))
 console.log(likes(['Alex', 'Jacob', 'Mark', 'Max']))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*function isValidIP(str) {
