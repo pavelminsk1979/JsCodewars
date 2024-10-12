@@ -11,6 +11,77 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function isAlt(word) {
+const arr = [...word]
+    const litters = 'aeiou'
+ for(let i=0;i<arr.length-1;i++){
+
+     if(litters.includes(arr[i])){
+        if(litters.includes(arr[i+1])){
+            return false
+        }else {continue}
+     }else {
+         if(litters.includes(arr[i+1])){continue}else {return false}
+     }
+ }
+ return true
+}
+
+
+console.log(isAlt('amazon'))
+console.log(isAlt('apple'))
+console.log(isAlt('banana'))
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 function upArray(arr) {
     if (arr.length === 0) return null
