@@ -3,14 +3,66 @@
 
 
 
+/*
+
+function findKey(nums){
+    let res = {}
+for (let i=0;i<nums.length;i++){
+
+    const arr = String(nums[i]).split('')
+
+    for (let j=0;j<arr.length;j++){
+        if (!res[j]) {
+            res[j] = [];
+        }
+        res[j].push(+arr[j])
+    }
+
+}
+
+const length=  Object.keys(res).length
+let result = []
+for(let i=0;i<length;i++){
+    const el = res[i]
+
+    const one=[]
+    const two=[]
 
 
 
+    for(let j=0;j<el.length;j++){
+
+
+        if(j===0){
+            one.push(el[j])
+        }else {
+            if(one[0]===el[j]){
+                one.push(el[j])
+            } else {
+                two.push(el[j])
+            }
+        }
+
+
+    }
+    if(one.length===1){
+        result.push(one[0])
+    } else {
+        result.push(two[0])
+    }
+
+}
+
+return   result.join('')
+
+}
+
+
+console.log(findKey([153456,123406,124456,323456,123458,123756]))
 
 
 
-
-
+*/
 
 
 
