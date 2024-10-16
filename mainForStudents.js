@@ -3,6 +3,83 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+function wave(str){
+  const result = []
+    for(let i=0;i<str.length;i++){
+
+        const arr = str.split('')
+       const liter =  arr[i].toUpperCase()
+        if(liter===' ')  continue
+
+        const res= arr.fill(liter,i,i+1).join('')
+        result.push(res)
+    }
+    return result
+}
+
+
+console.log(wave('two words'))
+console.log(wave('hello '))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 function findKey(nums){
