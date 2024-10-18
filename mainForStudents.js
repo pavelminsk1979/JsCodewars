@@ -28,6 +28,49 @@
 
 
 
+/*
+
+
+
+function whatCentury(year)
+{
+   const num = Math.ceil(+year/100)
+
+    if(num===0 || num >= 4 && num <= 20 || num>=24 && num<=30){
+        return num+'th'
+    } if(num===1 || num===21) {
+        return num+'st'
+}if(num===2 || num ===22){return num+'nd'} if(num==3||num===23){
+        return num+'rd'
+}
+
+}
+
+
+console.log(whatCentury('1999'))
+console.log(whatCentury('2011'))
+console.log(whatCentury('2154'))
+console.log(whatCentury('2259'))
+console.log(whatCentury('1234'))
+console.log(whatCentury('1023'))
+console.log(whatCentury('2000'))
+console.log(whatCentury('0200'))
+
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
