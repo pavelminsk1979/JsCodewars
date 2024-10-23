@@ -28,6 +28,54 @@
 
 
 
+
+/*function parse(data) {
+    const arr = data.split('')
+    let res = 0
+    const result = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i] === 'i') {
+            res += 1
+        }
+        if(arr[i]==='s'){
+            res = res*res
+        }
+        if(arr[i]==='o'){
+            result.push(res)
+        }
+        if(arr[i]==='d'){
+            res-=1
+        }
+    }
+    return result
+}
+
+
+console.log(parse("iiisxxxdoso"))*/
+
+
+/*
+
+function differentDigitsNumberSearch(arr) {
+
+for(let i=0;i<arr.length;i++){
+    const array =  String(arr[i]).split('')
+    for (let j = 0 ;j<array.length;j++){
+        const num =  array[j]
+        const res = array.filter(e=>e===num)
+        if(res.length>1){break}
+        return +array.join('')
+
+    }
+}
+return -1
+}
+
+console.log(differentDigitsNumberSearch([22, 111, 101, 124, 33, 30]))
+
+*/
+
+
 /*
 
 
@@ -61,23 +109,6 @@ console.log(whatCentury('0200'))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function wave(str){
@@ -100,27 +131,6 @@ console.log(wave('hello '))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
@@ -185,24 +195,6 @@ console.log(findKey([153456,123406,124456,323456,123458,123756]))
 */
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
 
 function isAlt(word) {
@@ -227,31 +219,6 @@ console.log(isAlt('apple'))
 console.log(isAlt('banana'))
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
