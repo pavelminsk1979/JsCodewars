@@ -29,6 +29,49 @@
 
 
 
+
+
+/*
+function encode(string) {
+    const obj = {
+        a: '1', e: '2', i: '3', o: '4', u: '5'
+    }
+    const arr = string.split('')
+
+    const res = []
+    for(let i=0;i<arr.length;i++){
+        if(obj[arr[i]]){
+            res.push(obj[arr[i]])
+        } else {
+            res.push(arr[i])
+        }
+    }
+    return res.join('')
+}
+
+function decode(string) {
+    const obj = {
+        1: 'a', 2: 'e', 3: 'i', 4: 'o', 5: 'u'
+    }
+    const arr = string.split('')
+
+    const res = []
+    for(let i=0;i<arr.length;i++){
+        if(obj[arr[i]]){
+            res.push(obj[arr[i]])
+        } else {
+            res.push(arr[i])
+        }
+    }
+    return res.join('')
+}
+
+
+console.log(encode('hello'))
+console.log(decode('h2ll4'))
+
+*/
+
 /*function parse(data) {
     const arr = data.split('')
     let res = 0
