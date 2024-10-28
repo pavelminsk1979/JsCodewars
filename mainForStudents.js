@@ -29,6 +29,59 @@
 
 
 
+/*
+
+
+function sortArray(array) {
+    const res = []
+
+    for(let m = 0;m<array.length;m++)
+        if(array[m]%2!==0){
+            res.push(array[m])
+        }
+
+  for(let i=0;i<res.length;i++){
+      for(let j=0;j<res.length;j++){
+          if(res[j]>res[j+1]){
+              const draft = res[j]
+              res[j]=res[j+1]
+              res[j+1]=draft
+          }
+      }
+  }
+  const result = []
+  for(let y = 0;y<array.length;y++){
+      if(array[y]%2!==0){
+          result.push(res[0])
+          res.splice(0,1)
+      }else {result.push(array[y])}
+  }
+  return result
+}
+
+
+console.log(sortArray([5, 3, 2, 8, 1, 4]))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*
