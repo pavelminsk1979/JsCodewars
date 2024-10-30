@@ -29,6 +29,55 @@
 
 
 
+
+
+
+
+/*
+/!*function minValue(arr, n) {
+    res = []
+    for (let i = 0; i < arr.length; i++) {
+        if (arr[i + n]) {
+            let sum
+            if (arr[i] < arr[i + 1]) {
+                sum = arr[i]
+            } else {
+                sum = arr[i + 1]
+            }
+            if (sum > arr[i + 2]) {
+                sum = arr[i + 2]
+            }
+
+            res.push(sum)
+        }
+    }
+    return res
+}*!/
+
+
+
+
+function minValue(arr, n) {
+    res = []
+    for (let i = 0; i < arr.length-(n-1); i++) {
+        const array = []
+     for(let j=0;j<n;j++){
+        const elForArray =  arr[i+j]
+         array.push(elForArray)
+     }
+     const minEl = array.reduce((ac,el)=>ac<el?ac:el)
+        res.push(minEl)
+
+    }
+    return res
+}
+
+
+console.log(minValue([1, -2, 3, -4, 5, -6, 7, 8], 3))
+console.log(minValue([1,-2,3,-4,5,-6,7,8], 6))
+*/
+
+
 /*
 
 
@@ -64,24 +113,6 @@ console.log(sortArray([5, 3, 2, 8, 1, 4]))
 
 
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /*
