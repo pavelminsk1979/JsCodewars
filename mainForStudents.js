@@ -8,9 +8,22 @@
 
 
 
+function findOdd(A) {
+   for(let i=0;i<A.length;i++){
+       const num = A[i]
+       let sum=0
+       for(let j=0;j<A.length;j++){
+           if(A[j]===num){
+               sum+=1
+           }
+       }
+       if(sum%2!==0) return num
+   }
+}
 
 
-
+console.log(findOdd([0,1,0,1,0]))
+console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]))
 
 
 
