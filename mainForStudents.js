@@ -8,6 +8,48 @@
 
 
 
+
+
+function twoSum(numbers, target) {
+   for (let i=0;i<numbers.length;i++){
+       const item = numbers[i]
+       for(let j=0;j<numbers.length;j++){
+           if(j===i){continue}
+           const sum = item+numbers[j]
+           if(sum===target){
+               return [i,j]
+           }
+       }
+   }
+}
+
+
+console.log(twoSum([1, 2, 3],4))
+console.log(twoSum([3, 2, 4], 6))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function findOdd(A) {
    for(let i=0;i<A.length;i++){
        const num = A[i]
@@ -27,6 +69,7 @@ console.log(findOdd([1,2,2,3,3,3,4,3,3,3,2,2,1]))
 
 
 
+*/
 
 
 
