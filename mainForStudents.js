@@ -10,6 +10,106 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+
+
+function minRepeatingCharacterDifference(text) {
+   const arr = text.split('')
+    const res = []
+    for (let i=0;i<arr.length;i++){
+        const liter = arr[i]
+        const positLiter = i
+        let positionRepeatLiter=0
+        for (let j= positLiter+1;j<arr.length;j++){
+            if(arr[j]===liter){
+                 positionRepeatLiter = j
+                break
+            }
+        }
+        if(positionRepeatLiter>0){
+            const resPosition = positionRepeatLiter-positLiter
+            res.push([Number(resPosition),String(liter)])
+
+        }
+
+    }
+    if(res.length===0) {return null}
+    if(res.length===1){return res[0]}
+    if(res.length>1){
+        let num = []
+      for(let i=0;i<=0;i++){
+
+         num= res[i]
+
+          for(let j=i+1;j<res.length;j++){
+              if(res[j][0]<num[0]){
+                  num=res[j]
+              }
+          }
+      }
+      return num
+    }
+}
+
+console.log(minRepeatingCharacterDifference("aabbg"))
+console.log(minRepeatingCharacterDifference("ufrfmhisup"))
+console.log(minRepeatingCharacterDifference("abde"))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
 function twoSum(numbers, target) {
    for (let i=0;i<numbers.length;i++){
        const item = numbers[i]
@@ -28,6 +128,7 @@ console.log(twoSum([1, 2, 3],4))
 console.log(twoSum([3, 2, 4], 6))
 
 
+*/
 
 
 
