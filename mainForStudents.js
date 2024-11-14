@@ -33,6 +33,65 @@
 
 
 
+/*
+
+function toCamelCase(str){
+const arr = str.split('')
+    const result = []
+    for(let i=0;i<arr.length;i++){
+        if(arr[i]==='-'||arr[i]==='_'){
+            result.push(' ')
+        } else {result.push(arr[i])}
+    }
+    const sentence = result.join('')
+    const array = sentence.split(' ')
+   const res=[]
+    for(let i=0;i<array.length;i++){
+        if(i===0){
+            res.push(array[i])
+        }else {
+            const word = array[i]
+            const item =  word.split('')
+            const resultArray = []
+            for(let j= 0;j<item.length;j++){
+                if(j===0){
+                   const litter =  item[j].toUpperCase()
+                    resultArray.push(litter)
+                }else {
+                    resultArray.push(item[j])
+                }
+            }
+            res.push(resultArray.join(''))
+        }
+    }
+    return res.join('')
+}
+
+
+console.log(toCamelCase('the_stealth_warrior'))
+console.log(toCamelCase('The-Stealth-Warrior'))
+
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
